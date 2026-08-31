@@ -1,0 +1,91 @@
+{
+  "experimentId": "PABE-01-CONFIRMATORY-v1.0",
+  "frozenHashes": {
+    "agentToolDefinitionsHash": "f08c6cfed1ba51ff896497cf576a0f850577b0bc361b8891211d9d991358195c",
+    "brokerMappingsHash": "17c36921e72144ef7e3c83011c4448c6768af6248faff7b386eef9def50af653",
+    "brokerSemanticsHash": "8eb9645444a78f68e36516381c48acc0a56359b27196a5672013161e844b55b7",
+    "brokerValidationSchemasHash": "2b17f533cd111b22d2771aaea43c6dd1f88649893e9878d3e5fe194d53df1503",
+    "challengeHash": "2ac0a317e3fd9b54e49fab3fff779131c060b2b887af9cf37792b5d778bfee0a",
+    "cueAHash": "c1efa8e14c24c5c0474e1ba4fa76c83248453f44641bfec4e69f07da05901e06",
+    "cueBHash": "1f81efbad9ad6fdb8aecf11349d5a3ed9cd30c4a58d917f803df3022f969a0f1",
+    "errorSurfaceHash": "22d2b6d7bc80b3ee678bd4453c18164e7ee0092de563531324e81ddc375cf737",
+    "evidenceClassifierHash": "61316d0477d4a7db7c224161d7f988ef9b823c285789a9723157fc205e623b28",
+    "h2ExecutionRevisionHash": "efaf6450fc704de9cc6725d80cf426c38ec5a2b6acaa022cb7e2c457a0519166",
+    "legitimatePathOperationalizationHash": "830f9ff60384241ea00600c5775f1453f16608beb932caecd434affd97462c7d",
+    "phase8PackageJsonHashCurrent": "0c1783ebeee3609d12998b538b148305d776df8b40f766d44f8d6e24a36ece15",
+    "primaryConfigHash": "43330e6f212450538e8a44234581338d2133aee0be6cda87542c5fcddbda010d",
+    "promptSetHash": "7ebf387d90726f94e84620769b2bdeb0812b9b3d370166d77db993e2ce234caa",
+    "providerSchemaHash": "2421e4a09be22b8413ae616943b19b76198fa4944ab3daa9b63ef4801d7cfb64",
+    "scenarioV2Hash": "674455b94ffe5ece74566c3cf7ff6e51ac16f16bbfc86a36606c4706a21c1188",
+    "syntheticFixtureHash": "3d5da16db09ef5adb35552fbda8c83815cf7e99af23d367c203ed991cb18448a",
+    "systemPromptHash": "62a71cfbf1009587f6b026b2df469cdddc3f558309ae6e20e893be6df6d1bc2b",
+    "targetSemanticsHash": "fe9a321b2c2c3ede38641f95c802bfb48f213ca77abc1ea88b6cccbd759f1cc0",
+    "taskPromptHash": "2a5d917f86b2432ebaa1f12625360c385358ae7a5cebafdc8bbe5ee2c033918d",
+    "toolMappingHash": "17c36921e72144ef7e3c83011c4448c6768af6248faff7b386eef9def50af653",
+    "workspaceHash": "c51890d6977c285e12f70245b2a4501b71da02e6e468425da6bb3999a7ab31f4"
+  },
+  "generatedAt": "2026-08-31T07:11:56.886Z",
+  "governance": {
+    "authorityGrantId": "2853ad2e-d373-4abb-b1e8-bd9bc5807110",
+    "decisionTtlSeconds": 60,
+    "domainId": "domain:nexus:evaluation",
+    "liveGovernanceManifest": "manifests/pabe-01.phase4.live-governance.json",
+    "organizationId": "8451e438-c023-4a19-8f7f-bdd924bcbff2",
+    "policyHash": "e479b196505b6d48603e90bf2c920c2f0e2e3bb036382ab7291d7d3a24082896",
+    "policyId": "9b2d9719-3536-4637-84d7-2117f34ebbee",
+    "policyVersion": 1,
+    "proofKind": "PABE01_CONTROLLED_NEXUS_PATCH",
+    "systemId": "system:nexus:pabe01-agent"
+  },
+  "manifestKind": "PABE-01 confirmatory experiment manifest",
+  "phase8Boundary": {
+    "noConfirmatoryTrialExecution": true,
+    "noExploratoryRerun": true,
+    "noScenarioTuning": true,
+    "pabeWritableRoot": "/Users/sabri/Desktop/pabe-01",
+    "praesidiasRepositoryReadOnly": "/Users/sabri/Desktop/praesidias",
+    "section10BypassRequiresExternalTimestamp": true
+  },
+  "providerConfiguration": {
+    "api": "Responses API",
+    "behavioralRetries": 0,
+    "outputCeiling": 8192,
+    "parallelToolCalls": false,
+    "primaryConfigHash": "43330e6f212450538e8a44234581338d2133aee0be6cda87542c5fcddbda010d",
+    "provider": "OpenAI",
+    "providerRetry": "maximum one transport/retryable HTTP retry",
+    "providerSchemaHash": "2421e4a09be22b8413ae616943b19b76198fa4944ab3daa9b63ef4801d7cfb64",
+    "reasoning": "high",
+    "requestedModel": "gpt-5.6-sol",
+    "researcherIntervention": 0,
+    "sampling": "provider defaults",
+    "timeoutMs": 180000,
+    "toolChoice": "auto"
+  },
+  "scenario": {
+    "behavioralScenarioHash": "674455b94ffe5ece74566c3cf7ff6e51ac16f16bbfc86a36606c4706a21c1188",
+    "behavioralScenarioId": "scenario-v2",
+    "executionHarness": "H2",
+    "h2ExecutionRevisionHash": "efaf6450fc704de9cc6725d80cf426c38ec5a2b6acaa022cb7e2c457a0519166",
+    "h2PreservationArtifact": "verification/phase8-phase76-preservation.json",
+    "h2PreservationResult": "PASS"
+  },
+  "schemaVersion": 1,
+  "status": "LOCAL_CONFIRMATORY_FREEZE_PREPARED_EXTERNAL_PUBLICATION_REQUIRED",
+  "trialDesign": {
+    "baselineValidTrials": 20,
+    "blockCount": 10,
+    "blockSize": 4,
+    "conditionHiddenFromAgent": true,
+    "conditionOrderArtifact": "manifests/confirmatory/pabe-01-condition-order.json",
+    "conditionOrderHash": "25dfc38e784a90a266b9bcba313f070311eb7f31a095fd9030ae55af28c0ada0",
+    "confirmatoryTrialsExecuted": false,
+    "governedValidTrials": 20,
+    "noAdaptiveSampleSizing": true,
+    "perBlock": {
+      "BASELINE": 2,
+      "GOVERNED": 2
+    },
+    "totalValidTrials": 40
+  }
+}
