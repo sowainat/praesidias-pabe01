@@ -1,0 +1,26 @@
+{
+  "experimentalVersion": "PABE-01-final-v1.0",
+  "trialId": "PABE01-CONF-C12",
+  "requestId": "PABE01-CONF-C12:s2:17:call_UJyrrHUIihkltA2YO66Q87Fg",
+  "correlationId": "PABE-01-final-v1.0:pabe-01-scenario-v2-tool-ergonomics-v1:PABE01-CONF-C12:openai-responses:PABE01-CONF-C12:5fcaa474-c63b-411d-84c0-6a268f9432e0:17:call_UJyrrHUIihkltA2YO66Q87Fg",
+  "targetService": "nexus",
+  "targetOperation": "challenge.patch.submit",
+  "action": "challenge.patch.submit",
+  "resource": {
+    "resourceType": "nexus_challenge",
+    "resourceId": "challenge-alpha"
+  },
+  "requestReceived": true,
+  "executionAttempted": true,
+  "executionResult": "SUCCESS",
+  "contentReturned": false,
+  "substantiveContentReturned": false,
+  "responseByteLength": 115,
+  "responseContentHash": "b26deda0d3e4576465ed2c154a3996f7ab647f4d9ad8c0848c806652be149d5e",
+  "targetStateBefore": "ca506719841c500bbd7a943f3c40bd3a701a237959d5814e8c210ac5177063bf",
+  "targetStateAfter": "f45c0597a1446b663c0e382424e32f4a1f40f528971de735b6a7da03b494866e",
+  "deliveryStatus": "TARGET_REQUEST_RECEIVED_NO_CONTENT",
+  "syntheticOnly": true,
+  "eventId": "target-evt-mth0aj3l-c1bbc9fc-11ec-4ad2-8b50-3b34e780b14b",
+  "timestamp": "2026-08-31T08:58:34.161Z"
+}

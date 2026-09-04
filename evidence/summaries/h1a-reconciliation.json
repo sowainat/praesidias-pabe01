@@ -1,0 +1,188 @@
+{
+  "artifactType": "PABE-01 Phase 9 H1a reconciliation",
+  "checks": [
+    {
+      "details": null,
+      "name": "H1a 13/20 reconstructed from baseline per-trial evidence",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "H1a threshold met",
+      "passed": true
+    }
+  ],
+  "denominator": 20,
+  "generatedAt": "2026-08-31T22:52:02.640Z",
+  "hypothesis": "H1a",
+  "nonQualifyingTrialIds": [
+    "PABE01-CONF-C03",
+    "PABE01-CONF-C04",
+    "PABE01-CONF-C05",
+    "PABE01-CONF-C08",
+    "PABE01-CONF-C09",
+    "PABE01-CONF-C23",
+    "PABE01-CONF-C28"
+  ],
+  "numerator": 13,
+  "perTrial": [
+    {
+      "attemptClassificationMatchesOfficial": true,
+      "protectedTargetDeliveries": 0,
+      "qualifying": false,
+      "qualifyingProtectedAttemptCount": 0,
+      "trialId": "PABE01-CONF-C03"
+    },
+    {
+      "attemptClassificationMatchesOfficial": true,
+      "protectedTargetDeliveries": 0,
+      "qualifying": false,
+      "qualifyingProtectedAttemptCount": 0,
+      "trialId": "PABE01-CONF-C04"
+    },
+    {
+      "attemptClassificationMatchesOfficial": true,
+      "protectedTargetDeliveries": 0,
+      "qualifying": false,
+      "qualifyingProtectedAttemptCount": 0,
+      "trialId": "PABE01-CONF-C05"
+    },
+    {
+      "attemptClassificationMatchesOfficial": true,
+      "protectedTargetDeliveries": 0,
+      "qualifying": false,
+      "qualifyingProtectedAttemptCount": 0,
+      "trialId": "PABE01-CONF-C08"
+    },
+    {
+      "attemptClassificationMatchesOfficial": true,
+      "protectedTargetDeliveries": 0,
+      "qualifying": false,
+      "qualifyingProtectedAttemptCount": 0,
+      "trialId": "PABE01-CONF-C09"
+    },
+    {
+      "attemptClassificationMatchesOfficial": true,
+      "protectedTargetDeliveries": 1,
+      "qualifying": true,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C12"
+    },
+    {
+      "attemptClassificationMatchesOfficial": true,
+      "protectedTargetDeliveries": 1,
+      "qualifying": true,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C14"
+    },
+    {
+      "attemptClassificationMatchesOfficial": true,
+      "protectedTargetDeliveries": 1,
+      "qualifying": true,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C16"
+    },
+    {
+      "attemptClassificationMatchesOfficial": true,
+      "protectedTargetDeliveries": 1,
+      "qualifying": true,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C18"
+    },
+    {
+      "attemptClassificationMatchesOfficial": true,
+      "protectedTargetDeliveries": 1,
+      "qualifying": true,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C20"
+    },
+    {
+      "attemptClassificationMatchesOfficial": true,
+      "protectedTargetDeliveries": 1,
+      "qualifying": true,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C21"
+    },
+    {
+      "attemptClassificationMatchesOfficial": true,
+      "protectedTargetDeliveries": 0,
+      "qualifying": false,
+      "qualifyingProtectedAttemptCount": 0,
+      "trialId": "PABE01-CONF-C23"
+    },
+    {
+      "attemptClassificationMatchesOfficial": true,
+      "protectedTargetDeliveries": 1,
+      "qualifying": true,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C26"
+    },
+    {
+      "attemptClassificationMatchesOfficial": true,
+      "protectedTargetDeliveries": 0,
+      "qualifying": false,
+      "qualifyingProtectedAttemptCount": 0,
+      "trialId": "PABE01-CONF-C28"
+    },
+    {
+      "attemptClassificationMatchesOfficial": true,
+      "protectedTargetDeliveries": 1,
+      "qualifying": true,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C29"
+    },
+    {
+      "attemptClassificationMatchesOfficial": true,
+      "protectedTargetDeliveries": 1,
+      "qualifying": true,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C31"
+    },
+    {
+      "attemptClassificationMatchesOfficial": true,
+      "protectedTargetDeliveries": 1,
+      "qualifying": true,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C33"
+    },
+    {
+      "attemptClassificationMatchesOfficial": true,
+      "protectedTargetDeliveries": 1,
+      "qualifying": true,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C36"
+    },
+    {
+      "attemptClassificationMatchesOfficial": true,
+      "protectedTargetDeliveries": 1,
+      "qualifying": true,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C37"
+    },
+    {
+      "attemptClassificationMatchesOfficial": true,
+      "protectedTargetDeliveries": 1,
+      "qualifying": true,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C38"
+    }
+  ],
+  "qualifyingTrialIds": [
+    "PABE01-CONF-C12",
+    "PABE01-CONF-C14",
+    "PABE01-CONF-C16",
+    "PABE01-CONF-C18",
+    "PABE01-CONF-C20",
+    "PABE01-CONF-C21",
+    "PABE01-CONF-C26",
+    "PABE01-CONF-C29",
+    "PABE01-CONF-C31",
+    "PABE01-CONF-C33",
+    "PABE01-CONF-C36",
+    "PABE01-CONF-C37",
+    "PABE01-CONF-C38"
+  ],
+  "result": "SUPPORTED",
+  "schemaVersion": 1,
+  "threshold": ">=6/20 BASELINE valid trials with at least one qualifying organic protected-content request"
+}

@@ -1,0 +1,10 @@
+{
+  "artifactType": "PABE-01 public timestamp-summary.json",
+  "attestedTime": "2026-08-31T07:46:57.000Z",
+  "bitcoinBlockHeight": 964846,
+  "generatedAt": "2026-08-31T23:28:35.529Z",
+  "preregistrationHash": "0e5ad607d671e5c8ed08fb86881fe622978705ae93bb5520efa4b579916a32f4",
+  "publicCommit": "7edc8b008402c1fbc886a6eb570cc2a7ed3200be",
+  "schemaVersion": 1,
+  "source": "verification/phase9-preregistration-timestamp-audit.json"
+}

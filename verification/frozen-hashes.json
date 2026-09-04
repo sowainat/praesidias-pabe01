@@ -1,0 +1,41 @@
+{
+  "artifactType": "PABE-01 confirmatory v1.0 preregistration hash manifest",
+  "experimentId": "PABE-01-CONFIRMATORY-v1.0",
+  "generatedAt": "2026-08-31T07:11:56.891Z",
+  "hashes": {
+    "b1B10Specification": "0c23f8ad553002bac0529f57f899e7969b4e62dba9eb724196f10f30ad495f76",
+    "brokerMappings": "17c36921e72144ef7e3c83011c4448c6768af6248faff7b386eef9def50af653",
+    "brokerSemantics": "8eb9645444a78f68e36516381c48acc0a56359b27196a5672013161e844b55b7",
+    "brokerValidationSchemas": "2b17f533cd111b22d2771aaea43c6dd1f88649893e9878d3e5fe194d53df1503",
+    "challenge": "2ac0a317e3fd9b54e49fab3fff779131c060b2b887af9cf37792b5d778bfee0a",
+    "conditionOrderArtifact": "67475ae24af95c83ae6913a79e1f2f3822ad1f92118083726fe5ee2d7094135f",
+    "confirmatoryExperimentManifest": "d7ed8c38a9f83bd6fbcc91360b7873d2fc6b9505ac3ecfbc9d00128bbc832cba",
+    "cueA": "c1efa8e14c24c5c0474e1ba4fa76c83248453f44641bfec4e69f07da05901e06",
+    "cueB": "1f81efbad9ad6fdb8aecf11349d5a3ed9cd30c4a58d917f803df3022f969a0f1",
+    "errorSurface": "22d2b6d7bc80b3ee678bd4453c18164e7ee0092de563531324e81ddc375cf737",
+    "evidenceClassifier": "61316d0477d4a7db7c224161d7f988ef9b823c285789a9723157fc205e623b28",
+    "fixture": "3d5da16db09ef5adb35552fbda8c83815cf7e99af23d367c203ed991cb18448a",
+    "h2ExecutionManifest": "34deddd6936db579e2bbd00f65e7b13c4e0ab1acac3481e64b790b81655aeca1",
+    "humanReadablePreregistration": "0e5ad607d671e5c8ed08fb86881fe622978705ae93bb5520efa4b579916a32f4",
+    "legitimatePathOperationalization": "830f9ff60384241ea00600c5775f1453f16608beb932caecd434affd97462c7d",
+    "modelConfig": "43330e6f212450538e8a44234581338d2133aee0be6cda87542c5fcddbda010d",
+    "providerToolSchema": "2421e4a09be22b8413ae616943b19b76198fa4944ab3daa9b63ef4801d7cfb64",
+    "scenarioV2Manifest": "c246910c193ef7af8a06b1078ae11b41298869c535ddcdb5e4213d69d5371637",
+    "sensitiveAnnexManifest": "5c126682201afde5d3e9bec3f02ea1fb391c63edc92d146e6208a7a292cc0fd6",
+    "systemPrompt": "62a71cfbf1009587f6b026b2df469cdddc3f558309ae6e20e893be6df6d1bc2b",
+    "targetSemantics": "fe9a321b2c2c3ede38641f95c802bfb48f213ca77abc1ea88b6cccbd759f1cc0",
+    "taskPrompt": "2a5d917f86b2432ebaa1f12625360c385358ae7a5cebafdc8bbe5ee2c033918d"
+  },
+  "localPublicationIsNotExternalTimestamp": true,
+  "packageHash": "c71a4d355581449e5d4a614b1c888a4fa1c1cbb437c9e24d296f34107b601fc8",
+  "referencedArtifacts": {
+    "conditionOrderArtifact": "manifests/confirmatory/pabe-01-condition-order.json",
+    "confirmatoryExperimentManifest": "manifests/confirmatory/pabe-01-confirmatory-v1.0.json",
+    "h2ExecutionManifest": "manifests/exploratory/scenario-v2-h2.json",
+    "humanReadablePreregistration": "preregistration/PABE-01-confirmatory-v1.0.md",
+    "scenarioV2Manifest": "manifests/exploratory/scenario-v2.json",
+    "sensitiveAnnexManifest": "preregistration/PABE-01-confirmatory-v1.0-sensitive-annex-manifest.json"
+  },
+  "schemaVersion": 1,
+  "status": "LOCAL_READY_EXTERNAL_PUBLICATION_REQUIRED"
+}

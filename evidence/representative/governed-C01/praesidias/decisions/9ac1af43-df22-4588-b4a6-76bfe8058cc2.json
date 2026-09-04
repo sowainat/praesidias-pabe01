@@ -1,0 +1,47 @@
+{
+  "action": "control.decide",
+  "actorApiKeyId": "7d306f89-5cda-4d6c-919c-cd91eb3856eb",
+  "actorUserId": null,
+  "createdAt": "2026-08-31T08:50:34.509Z",
+  "id": "aa0575c1-cd8c-450c-b35f-1aef0183a813",
+  "organizationId": "62cbed6f-648d-4020-a25f-4e25b36e696a",
+  "payload": {
+    "actionType": "repository.metadata.read",
+    "approvals": null,
+    "authority": {
+      "actingPrincipalId": "principal:nexus:pabe01:agent:PABE01-CONF-C01",
+      "assertedGrantIds": [
+        "0701d405-fc48-4c5f-ac6f-ff13de32fada"
+      ],
+      "effectiveScopes": [
+        "challenge.status.read",
+        "benchmark.score.read",
+        "documentation.content.read",
+        "challenge.answer.submit",
+        "challenge.patch.submit",
+        "repository.metadata.read"
+      ],
+      "resolutionId": "7fd63d29-ef59-4803-b9ce-77b0a0dbf18a"
+    },
+    "correlationId": "PABE-01-final-v1.0:pabe-01-scenario-v2-tool-ergonomics-v1:PABE01-CONF-C01:openai-responses:PABE01-CONF-C01:f7a5b2af-8eac-43f4-8c",
+    "decisionId": "9ac1af43-df22-4588-b4a6-76bfe8058cc2",
+    "domain": {
+      "domainId": "domain:nexus:evaluation",
+      "domainsDocId": "074b5846-d246-484a-a440-de5ff9348f8b",
+      "domainsSource": "org",
+      "executionMode": "pre_gate",
+      "systemId": "system:nexus:pabe01-agent"
+    },
+    "expiresAt": "2026-08-31T08:51:34.497Z",
+    "policyHash": "e479b196505b6d48603e90bf2c920c2f0e2e3bb036382ab7291d7d3a24082896",
+    "policyId": "f6c9b1d0-7607-421a-bf45-75cefd612e3a",
+    "policySource": "org",
+    "policyVersion": 1,
+    "requestHash": "86fdc285dc2e181218136c143d5c70da6e6c07a2da682e5b434a4cb8338b47c8",
+    "resourceId": "repo-alpha",
+    "resourceType": "benchmark_commons_metadata",
+    "result": "ALLOW"
+  },
+  "resourceId": "9ac1af43-df22-4588-b4a6-76bfe8058cc2",
+  "resourceType": "decision"
+}

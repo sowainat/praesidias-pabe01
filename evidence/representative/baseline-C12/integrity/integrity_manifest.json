@@ -1,0 +1,372 @@
+{
+  "schemaVersion": 1,
+  "artifactType": "PABE-01 Phase 3 trial integrity manifest",
+  "experimentalVersion": "PABE-01-final-v1.0",
+  "trialId": "PABE01-CONF-C12",
+  "generatedAt": "2026-08-31T08:58:34.180Z",
+  "localIntegrityOnly": true,
+  "externalTimestamped": false,
+  "artifacts": [
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:d1721d5817ef8994",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "agent/conversation.json",
+      "sha256": "2cc1746b2966e2ef8744afc45809c8a14e21b4b9ba2f2cbfecd179a08987ae01",
+      "byteLength": 10831,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:34.172Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:5744c7a1805af777",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "agent/delivery-evidence.json",
+      "sha256": "69d5fe4610ce85afc5e6c334088553bed5cee1b112c5d8806f0adef042993804",
+      "byteLength": 1372,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:34.177Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:f6a307e259c00ebd",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "agent/direct-access-audit.json",
+      "sha256": "7ac7b0ed33516e8f68e257f100ab546cf29b216f9e80f41e669e37ce10855996",
+      "byteLength": 855,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:34.179Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:1adf6b86b54c1fbb",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "agent/environment.json",
+      "sha256": "87ea4b5c195e7841b07d5f5012fae33077a9eefcb378d7b4b2e6a5b4c5505c33",
+      "byteLength": 305,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:03.643Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:b2ba5e9fbdcbc797",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "agent/human-intervention-policy.json",
+      "sha256": "21202c52ad00f9b155fb2daf3e58ca9f381697ed200c0c4eb862b7f8c3ee565b",
+      "byteLength": 95,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:34.179Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:45f2f3ca84395281",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "agent/prompt_manifest.json",
+      "sha256": "4f96e737deb58bd677aab8fcafc15c279815536de397e37d339a3578f6c9c2fc",
+      "byteLength": 308,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:03.643Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:225dfd8d37650cba",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "agent/protected-attempt-classification.json",
+      "sha256": "4a49fc74033152bd9acecfd51749ba264d6ccee5796e1f3608b9cf4e6f521659",
+      "byteLength": 519,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:34.178Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:d40bffafbe92773e",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "agent/provider-evidence.json",
+      "sha256": "c71288b7b998ee779b39d07df2497689a532601019dfa90f3f99854d8e39798c",
+      "byteLength": 215527,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:34.173Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:8f44b6683e2b166a",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "agent/provider-visible-message-sequence.json",
+      "sha256": "e0e5cba49753382c24d4433968c0ff24380d942d7276ebb4e19c8751bbeff102",
+      "byteLength": 112871,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:34.176Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:46ed6a2558cbd9c5",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "agent/termination.json",
+      "sha256": "37a21b9cda1924e780378e4d7068fbabaa8897ea660b06fd8b6006d6cb6861cf",
+      "byteLength": 142,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:34.179Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:94a1c9fa6958aac9",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "agent/tool-calls.json",
+      "sha256": "0c906464d8f0a6d181972cccfa738606bcf5fb5ff37daaeb749cc758d7a454c8",
+      "byteLength": 28235,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:34.177Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:5e49e07b278c82a8",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "agent/tool_definitions.json",
+      "sha256": "29ff81cdfab3c14b08a72f173cc24c40ff0d46e75722a9e7b3d146946770d8d0",
+      "byteLength": 3351,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:03.643Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:8fc7d69f5f4264b4",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "agent/workspace/runtime/README.md",
+      "sha256": "6bce0aececdfce6449b25fb9cb08daa0f48a1eafe443c2951f0420a3f021b0f7",
+      "byteLength": 262,
+      "mediaType": "application/octet-stream",
+      "capturedAt": "2026-08-31T08:58:03.641Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:69b9bb88e59e2d96",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "agent/workspace/runtime/docs/authorized-guide.md",
+      "sha256": "2b70bbbed3ab0c77342750454f5d6ee353a3e3c6fd131e2cb67ef269666f05aa",
+      "byteLength": 160,
+      "mediaType": "application/octet-stream",
+      "capturedAt": "2026-08-31T08:58:03.641Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:e33546c41bd18063",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "agent/workspace/runtime/logs/build-alpha-002.json",
+      "sha256": "1f81efbad9ad6fdb8aecf11349d5a3ed9cd30c4a58d917f803df3022f969a0f1",
+      "byteLength": 346,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:03.641Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:bf9021a8dcbc0db5",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "agent/workspace/runtime/package.json",
+      "sha256": "c1efa8e14c24c5c0474e1ba4fa76c83248453f44641bfec4e69f07da05901e06",
+      "byteLength": 342,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:03.641Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:3d15db57bfdc3ea8",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "agent/workspace/runtime/src/parser.ts",
+      "sha256": "400ad4f9128019acb50be1df038a0865628365cf3c7429e322b015c1d723d29a",
+      "byteLength": 437,
+      "mediaType": "application/octet-stream",
+      "capturedAt": "2026-08-31T08:58:29.501Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:0aa58bf1ff3f7ee2",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "agent/workspace/runtime/tests/parser.test.js",
+      "sha256": "efd5cf881d5f23c041d37092462cb4eeefe5efb827520346491c720638f0da44",
+      "byteLength": 231,
+      "mediaType": "application/octet-stream",
+      "capturedAt": "2026-08-31T08:58:03.641Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:124ce842e305fe78",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "agent/workspace-manifest.json",
+      "sha256": "bec70edae55105a8cd092fd45457132228863a6a7fa9bd98cf7e890de9363cc3",
+      "byteLength": 4559,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:34.179Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:faea829d8b1cd585",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "broker/events/PABE01-CONF-C12:s2:13:call_VVfUVqMNwWvPq7jsvyjf6FMY.events.json",
+      "sha256": "76ff5eaa593e2633a4edef5b487a07318da68beea2bad65ac44724956b821e55",
+      "byteLength": 8547,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:25.410Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:d79f8cae64999aa2",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "broker/events/PABE01-CONF-C12:s2:14:call_NxYkOjCGJq2uaDp8XIU83Bdr.events.json",
+      "sha256": "4aca014fe084529d347ea49cefd12959077d25b64d57bdbf9ff5aa1c662fd6df",
+      "byteLength": 9273,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:26.732Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:02ac814b6a3a55ad",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "broker/events/PABE01-CONF-C12:s2:17:call_UJyrrHUIihkltA2YO66Q87Fg.events.json",
+      "sha256": "1b16364fc4d7a8baf0a4aa54df4ed1c9feac0f5bcc82b610a6f0a3020592b32c",
+      "byteLength": 8445,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:34.164Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:0b45324db09b9005",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "broker/events.json",
+      "sha256": "6491304a3a21f52f1cde735d269734298368251f6eb7a0f8a3b205496f78e83d",
+      "byteLength": 57,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:34.179Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:5f9eef88ce494caa",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "broker/results/PABE01-CONF-C12:s2:13:call_VVfUVqMNwWvPq7jsvyjf6FMY.result.json",
+      "sha256": "c78f58f4a22d6e0a962af7ba01a04f8d2c82c100bfb116a0c81748fb8c3a6ebf",
+      "byteLength": 12512,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:25.410Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:5a6566db45acd719",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "broker/results/PABE01-CONF-C12:s2:14:call_NxYkOjCGJq2uaDp8XIU83Bdr.result.json",
+      "sha256": "dd48d4728254cfafbae366eb1130526840123713ba76057962f409fe5b77b337",
+      "byteLength": 13628,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:26.731Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:19cf81b9bd9b0350",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "broker/results/PABE01-CONF-C12:s2:17:call_UJyrrHUIihkltA2YO66Q87Fg.result.json",
+      "sha256": "e7a47fe122ecbe01f1366e4caeace8359ca5c71dcc6293944898384ca16409d9",
+      "byteLength": 12397,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:34.163Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:c1451ce4a866e8eb",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "classification/canonical-completeness.json",
+      "sha256": "d0f4194034a0736f47b27d869062d20ddda1a54f2a1cf923ba052873658e9c99",
+      "byteLength": 3256,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:34.180Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:d0efc5244f659cec",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "classification/trial-result.json",
+      "sha256": "ef655467bda7322e24d04cf3b9ddcc33462c7fc29e87eec798e51b8ef810d2b1",
+      "byteLength": 34461,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:34.180Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:7f7c23e1472dbbcc",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "controller/condition_record.json",
+      "sha256": "249f58246a7a99e70513c312b88747b21d055ea357f006b17081eb97056e7738",
+      "byteLength": 144,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:03.643Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:ab2cb1b89b4bfc0a",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "final_state/synthetic-world.json",
+      "sha256": "477f3047bece557fc1ff4fe51265ebfaba2d1a8469b7ce35636283ea1f596506",
+      "byteLength": 550,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:34.180Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:72b2175c2f056814",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "initial_state/synthetic-reset.json",
+      "sha256": "b6ab0652ae488c1bba030ec3e1a9103e39821b4c997c87dbe2d4e3f54bc7c9f2",
+      "byteLength": 1189,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:03.643Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:d01a5419e03fe716",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "target/PABE-01-final-v1.0/PABE01-CONF-C12/benchmark_commons_metadata/2026-08-31T08:58:25.407Z.target-evt-mth0accf-0d64143f-b992-41eb-bb6f-2efc55c977fe.json",
+      "sha256": "4c064b3772cb2a33bd7cd9ee8dad14b1e929ec4e1cb89929f47d512a7fe858d0",
+      "byteLength": 1249,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:25.409Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:f337d37efd83bd7d",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "target/PABE-01-final-v1.0/PABE01-CONF-C12/benchmark_commons_protected_content/2026-08-31T08:58:26.729Z.target-evt-mth0add5-f056baef-38e6-46cf-8ea0-58067d83668c.json",
+      "sha256": "af511ad0dacdbe5331a9aeb39acc6629b1cbc5676d655387e58c3300a09cd56e",
+      "byteLength": 1406,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:26.730Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:b56959b329d7438f",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "target/PABE-01-final-v1.0/PABE01-CONF-C12/nexus/2026-08-31T08:58:34.161Z.target-evt-mth0aj3l-c1bbc9fc-11ec-4ad2-8b50-3b34e780b14b.json",
+      "sha256": "45c02d2245331c2167d33feeb6d3c311886fd93fc9b725d38adef38d215b2c1d",
+      "byteLength": 1218,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:34.162Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:a7f2fefe7344aacd",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "target/delivery/PABE01-CONF-C12:s2:14:call_NxYkOjCGJq2uaDp8XIU83Bdr.delivery.json",
+      "sha256": "3e3f311444af8f826a84bbde0c30157662607a1ebb5246659f801a094630a7de",
+      "byteLength": 1318,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:26.733Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:cd9aad038dadf186",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "target/queries/PABE01-CONF-C12:s2:13:call_VVfUVqMNwWvPq7jsvyjf6FMY.query.json",
+      "sha256": "f554e1cde5e241b44a21a6ab77dc053397340d11920701fed5f0dd25f0e50f86",
+      "byteLength": 1870,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:25.411Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:72d854b795783c57",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "target/queries/PABE01-CONF-C12:s2:14:call_NxYkOjCGJq2uaDp8XIU83Bdr.query.json",
+      "sha256": "e59efbcc69bb8cd54a390f58c0794e485343391e07e84b96ef4856735d523a36",
+      "byteLength": 2041,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:26.732Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:8bec9b6bef908c37",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "target/queries/PABE01-CONF-C12:s2:17:call_UJyrrHUIihkltA2YO66Q87Fg.query.json",
+      "sha256": "38535d755fb132f5bd7669fc7637c4dfa6be61acc21a7a4bd8a6ba88efa0fb4c",
+      "byteLength": 1839,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:34.164Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:a63837ac623500d5",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "target/telemetry.json",
+      "sha256": "84082eee9fe5e9fde15c74cb2be3197eab2565d53698fc58983908f7fa0f9d22",
+      "byteLength": 1947,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:34.180Z"
+    },
+    {
+      "artifactId": "trial-artifact:PABE01-CONF-C12:3090dd854c44db72",
+      "artifactType": "PABE-01 Phase 3 trial bundle artifact",
+      "path": "trial_manifest.json",
+      "sha256": "07f8d3fb6c2027adf8a77e77918ff4da0b1dd05edd7d8f7af054a0384035ad4c",
+      "byteLength": 768,
+      "mediaType": "application/json",
+      "capturedAt": "2026-08-31T08:58:03.642Z"
+    }
+  ],
+  "manifestBodySha256": "b292ed7d2f493790553b9429781b2c0f35cdb6f87d9599e64e63b571ac924967"
+}

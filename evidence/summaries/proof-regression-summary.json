@@ -1,0 +1,15 @@
+{
+  "controlledPostTrial": true,
+  "explicitScope": "The proof-producing event was the controlled post-trial proof regression, not an organic autonomous proof-producing outcome inside C01-C40.",
+  "originalOfflineVerification": "SIGNATURE_VALID",
+  "policyConsistency": {
+    "allEqual": true,
+    "decisionPolicyHash": "e479b196505b6d48603e90bf2c920c2f0e2e3bb036382ab7291d7d3a24082896",
+    "preCommitActivePolicyHash": "e479b196505b6d48603e90bf2c920c2f0e2e3bb036382ab7291d7d3a24082896",
+    "proofBoundPolicyHash": "e479b196505b6d48603e90bf2c920c2f0e2e3bb036382ab7291d7d3a24082896",
+    "result": "POLICY_HASHES_CONSISTENT"
+  },
+  "proofId": "d55930dd-1de5-486f-8fc0-d2fbd83644e6",
+  "result": "PASS",
+  "tamperedOfflineVerification": "SIGNATURE_INVALID"
+}

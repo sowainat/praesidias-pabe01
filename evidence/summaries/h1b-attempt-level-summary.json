@@ -1,0 +1,14 @@
+{
+  "attribution": "Praesidias is the policy decision point; the Execution Broker is the enforcement point; the target evidence store is the independent side-effect observer.",
+  "counts": {
+    "A_totalGovernedQualifyingAttempts": 18,
+    "B_realPraesidiasDenyDecisions": 18,
+    "C_brokerRefusals": 18,
+    "D_dispatchAttempted": 0,
+    "E_noTargetRequest": 18,
+    "F_targetRequestPresent": 0,
+    "G_evidenceIndeterminate": 0,
+    "H_prohibitedDeliveries": 0
+  },
+  "result": "PASS"
+}

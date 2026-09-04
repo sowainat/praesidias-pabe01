@@ -1,0 +1,86 @@
+[
+  {
+    "artifactId": "praesidias-audit:6061f4e4-df17-4984-9398-f61a20e17a67",
+    "path": "live-api:/analytics/audit#6061f4e4-df17-4984-9398-f61a20e17a67",
+    "mediaType": "application/json",
+    "confidentiality": "redacted"
+  },
+  {
+    "artifactId": "praesidias-audit:e11eaa1a-515c-471c-a803-da1f87ce9002",
+    "path": "live-api:/analytics/audit#e11eaa1a-515c-471c-a803-da1f87ce9002",
+    "mediaType": "application/json",
+    "confidentiality": "redacted"
+  },
+  {
+    "artifactId": "praesidias-audit:5da39901-2975-4325-a950-ed9a5d917f59",
+    "path": "live-api:/analytics/audit#5da39901-2975-4325-a950-ed9a5d917f59",
+    "mediaType": "application/json",
+    "confidentiality": "redacted"
+  },
+  {
+    "artifactId": "praesidias-audit:7f5a9d8e-acb0-41bf-bc06-269717e3ad3e",
+    "path": "live-api:/analytics/audit#7f5a9d8e-acb0-41bf-bc06-269717e3ad3e",
+    "mediaType": "application/json",
+    "confidentiality": "redacted"
+  },
+  {
+    "artifactId": "praesidias-audit:4275ace5-911c-47ca-a0b8-d15faf3fb863",
+    "path": "live-api:/analytics/audit#4275ace5-911c-47ca-a0b8-d15faf3fb863",
+    "mediaType": "application/json",
+    "confidentiality": "redacted"
+  },
+  {
+    "artifactId": "praesidias-audit:7175c408-5d4e-4d28-9315-8b0978299739",
+    "path": "live-api:/analytics/audit#7175c408-5d4e-4d28-9315-8b0978299739",
+    "mediaType": "application/json",
+    "confidentiality": "redacted"
+  },
+  {
+    "artifactId": "praesidias-audit:000a4613-ba88-40ba-a605-9372827c299b",
+    "path": "live-api:/analytics/audit#000a4613-ba88-40ba-a605-9372827c299b",
+    "mediaType": "application/json",
+    "confidentiality": "redacted"
+  },
+  {
+    "artifactId": "praesidias-audit:cec39393-d6a5-4de3-97fc-be40865853e7",
+    "path": "live-api:/analytics/audit#cec39393-d6a5-4de3-97fc-be40865853e7",
+    "mediaType": "application/json",
+    "confidentiality": "redacted"
+  },
+  {
+    "artifactId": "praesidias-audit:681f2be5-8cd6-4d04-854d-ba713156e010",
+    "path": "live-api:/analytics/audit#681f2be5-8cd6-4d04-854d-ba713156e010",
+    "mediaType": "application/json",
+    "confidentiality": "redacted"
+  },
+  {
+    "artifactId": "praesidias-audit:1328310a-582a-4054-92b5-895b4c98d372",
+    "path": "live-api:/analytics/audit#1328310a-582a-4054-92b5-895b4c98d372",
+    "mediaType": "application/json",
+    "confidentiality": "redacted"
+  },
+  {
+    "artifactId": "praesidias-audit:aa0575c1-cd8c-450c-b35f-1aef0183a813",
+    "path": "live-api:/analytics/audit#aa0575c1-cd8c-450c-b35f-1aef0183a813",
+    "mediaType": "application/json",
+    "confidentiality": "redacted"
+  },
+  {
+    "artifactId": "praesidias-audit:29933c63-a8f7-4c22-bac2-4b9e139de2c9",
+    "path": "live-api:/analytics/audit#29933c63-a8f7-4c22-bac2-4b9e139de2c9",
+    "mediaType": "application/json",
+    "confidentiality": "redacted"
+  },
+  {
+    "artifactId": "praesidias-audit:caa7ce92-c01e-4642-bb63-9930288fe253",
+    "path": "live-api:/analytics/audit#caa7ce92-c01e-4642-bb63-9930288fe253",
+    "mediaType": "application/json",
+    "confidentiality": "redacted"
+  },
+  {
+    "artifactId": "praesidias-audit:f1ac25cc-1cfa-42e7-9009-4cd0fb6f50cb",
+    "path": "live-api:/analytics/audit#f1ac25cc-1cfa-42e7-9009-4cd0fb6f50cb",
+    "mediaType": "application/json",
+    "confidentiality": "redacted"
+  }
+]

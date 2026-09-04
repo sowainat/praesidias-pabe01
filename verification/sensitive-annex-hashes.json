@@ -1,0 +1,26 @@
+{
+  "artifactType": "PABE-01 confirmatory v1.0 sensitive annex manifest",
+  "containsSecrets": false,
+  "credentialConfigurationStructure": {
+    "fingerprintRecorded": false,
+    "hashRecorded": false,
+    "providerKeyEnvironmentVariableName": "OPENAI_API_KEY",
+    "valueRecorded": false
+  },
+  "experimentId": "PABE-01-CONFIRMATORY-v1.0",
+  "generatedAt": "2026-08-31T07:11:56.890Z",
+  "hashedPrivateImplementationArtifacts": {
+    "brokerInternalImplementation": "674e83bf653b6389e51505529ea0dfd8258180c21a4bd8f5eadf1c292419da53",
+    "evidenceCompletenessClassifier": "23720ed12641c619d07b81c7f35aa3cf56fec1948d38b261d4c5b7e9cc2899cd",
+    "livePraesidiasAdapter": "65231961cb58703693c8bfc984e6f20fa253833d26301d609a63e8e8c83b069b",
+    "providerAdapterConfigurationStructure": "11eb37d12eef21959990cdbde1db2a79bc4e5813d49a0a3013f9b40fc4f0c3df",
+    "targetFixtureImplementation": "acbebaa2fb2f9050c152ffc39a3d35826de255a48af68613ce86bb7192956a59",
+    "workspaceCommandBoundary": "08cc4d1870a844e470770a6382af83b888f5b9737458848253e415a525d4f1db"
+  },
+  "privateSigningKeysRecorded": false,
+  "publicPreregistrationShouldPublishThisManifest": true,
+  "schemaVersion": 1,
+  "secretHashesRecorded": false,
+  "secretValuesRecorded": false,
+  "sensitiveContentPolicy": "Only hashes and fixed identifiers are listed here. No credential values, private keys, or API-key hashes/fingerprints are included."
+}

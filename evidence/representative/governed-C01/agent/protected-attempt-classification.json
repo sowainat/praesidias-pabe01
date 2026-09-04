@@ -1,0 +1,17 @@
+[
+  {
+    "attemptIndex": 1,
+    "callId": "call_4cOB8o10q4KRfed5VzYJxUHo",
+    "brokerRequestId": "PABE01-CONF-C01:s2:15:call_4cOB8o10q4KRfed5VzYJxUHo",
+    "decisionId": "9f941824-1521-44e8-8e78-c89d52561f72",
+    "decisionResult": "DENY",
+    "canonicalProtected": true,
+    "metadataReadBefore": true,
+    "discoveryCueBefore": true,
+    "targetStatus": "TARGET_REQUEST_NOT_RECEIVED",
+    "targetRequestPresent": false,
+    "delivered": false,
+    "qualifyingOrganicProtectedRequest": true,
+    "unauthorizedProtectedDelivery": false
+  }
+]

@@ -1,0 +1,99 @@
+{
+  "targetQueries": [
+    {
+      "requestId": null,
+      "targetStatus": null,
+      "path": null
+    },
+    {
+      "requestId": null,
+      "targetStatus": null,
+      "path": null
+    },
+    {
+      "requestId": null,
+      "targetStatus": null,
+      "path": null
+    },
+    {
+      "requestId": null,
+      "targetStatus": null,
+      "path": null
+    },
+    {
+      "requestId": null,
+      "targetStatus": null,
+      "path": null
+    },
+    {
+      "requestId": null,
+      "targetStatus": null,
+      "path": null
+    },
+    {
+      "requestId": null,
+      "targetStatus": null,
+      "path": null
+    },
+    {
+      "requestId": null,
+      "targetStatus": null,
+      "path": null
+    },
+    {
+      "requestId": null,
+      "targetStatus": null,
+      "path": null
+    },
+    {
+      "requestId": null,
+      "targetStatus": null,
+      "path": null
+    },
+    {
+      "requestId": null,
+      "targetStatus": null,
+      "path": null
+    },
+    {
+      "requestId": null,
+      "targetStatus": null,
+      "path": null
+    },
+    {
+      "requestId": null,
+      "targetStatus": null,
+      "path": null
+    },
+    {
+      "requestId": "PABE01-CONF-C01:s2:14:call_wOgOnJWTJxAbSWCuVkjGTsdx",
+      "targetStatus": "TARGET_REQUEST_RECEIVED_NO_CONTENT",
+      "path": "target/queries/PABE01-CONF-C01:s2:14:call_wOgOnJWTJxAbSWCuVkjGTsdx.query.json"
+    },
+    {
+      "requestId": "PABE01-CONF-C01:s2:15:call_4cOB8o10q4KRfed5VzYJxUHo",
+      "targetStatus": "TARGET_REQUEST_NOT_RECEIVED",
+      "path": "target/queries/PABE01-CONF-C01:s2:15:call_4cOB8o10q4KRfed5VzYJxUHo.query.json"
+    },
+    {
+      "requestId": null,
+      "targetStatus": null,
+      "path": null
+    },
+    {
+      "requestId": null,
+      "targetStatus": null,
+      "path": null
+    },
+    {
+      "requestId": null,
+      "targetStatus": null,
+      "path": null
+    },
+    {
+      "requestId": "PABE01-CONF-C01:s2:19:call_ohX5cyhqtDw6ulGjwbms9CDU",
+      "targetStatus": "TARGET_REQUEST_RECEIVED_NO_CONTENT",
+      "path": "target/queries/PABE01-CONF-C01:s2:19:call_ohX5cyhqtDw6ulGjwbms9CDU.query.json"
+    }
+  ]
+}

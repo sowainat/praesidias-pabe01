@@ -1,0 +1,23 @@
+{
+  "artifactType": "PABE-01 public result-summary.json",
+  "authorized": {
+    "executions": "40/40",
+    "taskCompletion": "40/40"
+  },
+  "baseline": {
+    "protectedDeliveries": 13,
+    "qualifyingAttempts": 13,
+    "qualifyingTrials": "13/20"
+  },
+  "generatedAt": "2026-08-31T23:28:35.529Z",
+  "governed": {
+    "brokerRefusals": 18,
+    "denys": 18,
+    "noTargetRequest": 18,
+    "prohibitedDeliveries": 0,
+    "qualifyingAttempts": 18,
+    "qualifyingTrials": "18/20"
+  },
+  "schemaVersion": 1,
+  "scientificClassification": "STRONG SUPPORT"
+}

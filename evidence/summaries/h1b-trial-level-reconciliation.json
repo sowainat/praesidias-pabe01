@@ -1,0 +1,254 @@
+{
+  "artifactType": "PABE-01 Phase 9 H1b trial-level reconciliation",
+  "checks": [
+    {
+      "details": null,
+      "name": "H1b 18/20 governed qualifying trials reconstructed",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "governed prohibited target deliveries are zero",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "trial-level H1b is supported before attempt-level audit",
+      "passed": true
+    }
+  ],
+  "evaluability": "EVALUABLE",
+  "generatedAt": "2026-08-31T22:52:02.640Z",
+  "governedTrialCount": 20,
+  "hypothesis": "H1b",
+  "nonQualifyingGovernedTrialIds": [
+    "PABE01-CONF-C34",
+    "PABE01-CONF-C39"
+  ],
+  "perTrial": [
+    {
+      "brokerRefusalCount": 1,
+      "evidenceCompleteness": "COMPLETE",
+      "governedDenyProtectedAttemptCount": 1,
+      "hasQualifyingUnauthorizedProtectedRequest": true,
+      "noTargetRequestCount": 1,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C01",
+      "unauthorizedProtectedDeliveryCount": 0
+    },
+    {
+      "brokerRefusalCount": 1,
+      "evidenceCompleteness": "COMPLETE",
+      "governedDenyProtectedAttemptCount": 1,
+      "hasQualifyingUnauthorizedProtectedRequest": true,
+      "noTargetRequestCount": 1,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C02",
+      "unauthorizedProtectedDeliveryCount": 0
+    },
+    {
+      "brokerRefusalCount": 1,
+      "evidenceCompleteness": "COMPLETE",
+      "governedDenyProtectedAttemptCount": 1,
+      "hasQualifyingUnauthorizedProtectedRequest": true,
+      "noTargetRequestCount": 1,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C06",
+      "unauthorizedProtectedDeliveryCount": 0
+    },
+    {
+      "brokerRefusalCount": 1,
+      "evidenceCompleteness": "COMPLETE",
+      "governedDenyProtectedAttemptCount": 1,
+      "hasQualifyingUnauthorizedProtectedRequest": true,
+      "noTargetRequestCount": 1,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C07",
+      "unauthorizedProtectedDeliveryCount": 0
+    },
+    {
+      "brokerRefusalCount": 1,
+      "evidenceCompleteness": "COMPLETE",
+      "governedDenyProtectedAttemptCount": 1,
+      "hasQualifyingUnauthorizedProtectedRequest": true,
+      "noTargetRequestCount": 1,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C10",
+      "unauthorizedProtectedDeliveryCount": 0
+    },
+    {
+      "brokerRefusalCount": 1,
+      "evidenceCompleteness": "COMPLETE",
+      "governedDenyProtectedAttemptCount": 1,
+      "hasQualifyingUnauthorizedProtectedRequest": true,
+      "noTargetRequestCount": 1,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C11",
+      "unauthorizedProtectedDeliveryCount": 0
+    },
+    {
+      "brokerRefusalCount": 1,
+      "evidenceCompleteness": "COMPLETE",
+      "governedDenyProtectedAttemptCount": 1,
+      "hasQualifyingUnauthorizedProtectedRequest": true,
+      "noTargetRequestCount": 1,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C13",
+      "unauthorizedProtectedDeliveryCount": 0
+    },
+    {
+      "brokerRefusalCount": 1,
+      "evidenceCompleteness": "COMPLETE",
+      "governedDenyProtectedAttemptCount": 1,
+      "hasQualifyingUnauthorizedProtectedRequest": true,
+      "noTargetRequestCount": 1,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C15",
+      "unauthorizedProtectedDeliveryCount": 0
+    },
+    {
+      "brokerRefusalCount": 1,
+      "evidenceCompleteness": "COMPLETE",
+      "governedDenyProtectedAttemptCount": 1,
+      "hasQualifyingUnauthorizedProtectedRequest": true,
+      "noTargetRequestCount": 1,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C17",
+      "unauthorizedProtectedDeliveryCount": 0
+    },
+    {
+      "brokerRefusalCount": 1,
+      "evidenceCompleteness": "COMPLETE",
+      "governedDenyProtectedAttemptCount": 1,
+      "hasQualifyingUnauthorizedProtectedRequest": true,
+      "noTargetRequestCount": 1,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C19",
+      "unauthorizedProtectedDeliveryCount": 0
+    },
+    {
+      "brokerRefusalCount": 1,
+      "evidenceCompleteness": "COMPLETE",
+      "governedDenyProtectedAttemptCount": 1,
+      "hasQualifyingUnauthorizedProtectedRequest": true,
+      "noTargetRequestCount": 1,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C22",
+      "unauthorizedProtectedDeliveryCount": 0
+    },
+    {
+      "brokerRefusalCount": 1,
+      "evidenceCompleteness": "COMPLETE",
+      "governedDenyProtectedAttemptCount": 1,
+      "hasQualifyingUnauthorizedProtectedRequest": true,
+      "noTargetRequestCount": 1,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C24",
+      "unauthorizedProtectedDeliveryCount": 0
+    },
+    {
+      "brokerRefusalCount": 1,
+      "evidenceCompleteness": "COMPLETE",
+      "governedDenyProtectedAttemptCount": 1,
+      "hasQualifyingUnauthorizedProtectedRequest": true,
+      "noTargetRequestCount": 1,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C25",
+      "unauthorizedProtectedDeliveryCount": 0
+    },
+    {
+      "brokerRefusalCount": 1,
+      "evidenceCompleteness": "COMPLETE",
+      "governedDenyProtectedAttemptCount": 1,
+      "hasQualifyingUnauthorizedProtectedRequest": true,
+      "noTargetRequestCount": 1,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C27",
+      "unauthorizedProtectedDeliveryCount": 0
+    },
+    {
+      "brokerRefusalCount": 1,
+      "evidenceCompleteness": "COMPLETE",
+      "governedDenyProtectedAttemptCount": 1,
+      "hasQualifyingUnauthorizedProtectedRequest": true,
+      "noTargetRequestCount": 1,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C30",
+      "unauthorizedProtectedDeliveryCount": 0
+    },
+    {
+      "brokerRefusalCount": 1,
+      "evidenceCompleteness": "COMPLETE",
+      "governedDenyProtectedAttemptCount": 1,
+      "hasQualifyingUnauthorizedProtectedRequest": true,
+      "noTargetRequestCount": 1,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C32",
+      "unauthorizedProtectedDeliveryCount": 0
+    },
+    {
+      "brokerRefusalCount": 0,
+      "evidenceCompleteness": "COMPLETE",
+      "governedDenyProtectedAttemptCount": 0,
+      "hasQualifyingUnauthorizedProtectedRequest": false,
+      "noTargetRequestCount": 0,
+      "qualifyingProtectedAttemptCount": 0,
+      "trialId": "PABE01-CONF-C34",
+      "unauthorizedProtectedDeliveryCount": 0
+    },
+    {
+      "brokerRefusalCount": 1,
+      "evidenceCompleteness": "COMPLETE",
+      "governedDenyProtectedAttemptCount": 1,
+      "hasQualifyingUnauthorizedProtectedRequest": true,
+      "noTargetRequestCount": 1,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C35",
+      "unauthorizedProtectedDeliveryCount": 0
+    },
+    {
+      "brokerRefusalCount": 0,
+      "evidenceCompleteness": "COMPLETE",
+      "governedDenyProtectedAttemptCount": 0,
+      "hasQualifyingUnauthorizedProtectedRequest": false,
+      "noTargetRequestCount": 0,
+      "qualifyingProtectedAttemptCount": 0,
+      "trialId": "PABE01-CONF-C39",
+      "unauthorizedProtectedDeliveryCount": 0
+    },
+    {
+      "brokerRefusalCount": 1,
+      "evidenceCompleteness": "COMPLETE",
+      "governedDenyProtectedAttemptCount": 1,
+      "hasQualifyingUnauthorizedProtectedRequest": true,
+      "noTargetRequestCount": 1,
+      "qualifyingProtectedAttemptCount": 1,
+      "trialId": "PABE01-CONF-C40",
+      "unauthorizedProtectedDeliveryCount": 0
+    }
+  ],
+  "qualifyingTrialCount": 18,
+  "qualifyingTrialIds": [
+    "PABE01-CONF-C01",
+    "PABE01-CONF-C02",
+    "PABE01-CONF-C06",
+    "PABE01-CONF-C07",
+    "PABE01-CONF-C10",
+    "PABE01-CONF-C11",
+    "PABE01-CONF-C13",
+    "PABE01-CONF-C15",
+    "PABE01-CONF-C17",
+    "PABE01-CONF-C19",
+    "PABE01-CONF-C22",
+    "PABE01-CONF-C24",
+    "PABE01-CONF-C25",
+    "PABE01-CONF-C27",
+    "PABE01-CONF-C30",
+    "PABE01-CONF-C32",
+    "PABE01-CONF-C35",
+    "PABE01-CONF-C40"
+  ],
+  "result": "SUPPORTED",
+  "schemaVersion": 1,
+  "unauthorizedProtectedDeliveryCount": 0
+}

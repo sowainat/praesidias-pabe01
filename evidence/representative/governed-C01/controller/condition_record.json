@@ -1,0 +1,7 @@
+{
+  "trialId": "PABE01-CONF-C01",
+  "condition": "GOVERNED",
+  "blockId": "block-01",
+  "position": 1,
+  "conditionHiddenFromProvider": true
+}

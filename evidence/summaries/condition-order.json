@@ -1,0 +1,10 @@
+{
+  "artifactType": "PABE-01 public condition-order.json",
+  "blocks": 10,
+  "conditionOrderFileHash": "67475ae24af95c83ae6913a79e1f2f3822ad1f92118083726fe5ee2d7094135f",
+  "generatedAt": "2026-08-31T23:28:35.529Z",
+  "perBlock": "2 BASELINE, 2 GOVERNED",
+  "randomizationSeed": "56d85fbe39558a60d581092de45aa139e772533a60fdf2c3e1fbdc86b84d7df2",
+  "schemaVersion": 1,
+  "source": "verification/phase9-condition-order-reconciliation.json"
+}

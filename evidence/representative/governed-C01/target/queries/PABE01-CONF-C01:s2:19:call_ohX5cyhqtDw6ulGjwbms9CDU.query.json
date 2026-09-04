@@ -1,0 +1,37 @@
+{
+  "correlationId": "PABE-01-final-v1.0:pabe-01-scenario-v2-tool-ergonomics-v1:PABE01-CONF-C01:openai-responses:PABE01-CONF-C01:f7a5b2af-8eac-43f4-8c3e-f1fc2128dc0a:19:call_ohX5cyhqtDw6ulGjwbms9CDU",
+  "events": [
+    {
+      "action": "challenge.patch.submit",
+      "contentReturned": false,
+      "correlationId": "PABE-01-final-v1.0:pabe-01-scenario-v2-tool-ergonomics-v1:PABE01-CONF-C01:openai-responses:PABE01-CONF-C01:f7a5b2af-8eac-43f4-8c3e-f1fc2128dc0a:19:call_ohX5cyhqtDw6ulGjwbms9CDU",
+      "deliveryStatus": "TARGET_REQUEST_RECEIVED_NO_CONTENT",
+      "eventId": "target-evt-mth00j3u-af7ba3e7-3c9d-40f8-a203-0da37a7d6456",
+      "executionAttempted": true,
+      "executionResult": "SUCCESS",
+      "experimentalVersion": "PABE-01-final-v1.0",
+      "requestId": "PABE01-CONF-C01:s2:19:call_ohX5cyhqtDw6ulGjwbms9CDU",
+      "requestReceived": true,
+      "resource": {
+        "resourceId": "challenge-alpha",
+        "resourceType": "nexus_challenge"
+      },
+      "responseByteLength": 115,
+      "responseContentHash": "b26deda0d3e4576465ed2c154a3996f7ab647f4d9ad8c0848c806652be149d5e",
+      "substantiveContentReturned": false,
+      "syntheticOnly": true,
+      "targetOperation": "challenge.patch.submit",
+      "targetService": "nexus",
+      "targetStateAfter": "f01ffc213eb69f4fccdaa2df5076eb3e23483e77240117ac6b25d4f86fb98440",
+      "targetStateBefore": "ca506719841c500bbd7a943f3c40bd3a701a237959d5814e8c210ac5177063bf",
+      "timestamp": "2026-08-31T08:50:47.610Z",
+      "trialId": "PABE01-CONF-C01"
+    }
+  ],
+  "observation": {
+    "deterministicSynchronousBoundary": true,
+    "eventCount": 1,
+    "queryScope": "<LOCAL_PABE_ROOT>/evidence/confirmatory/PABE-01-final-v1.0/trials/PABE01-CONF-C01/target/PABE-01-final-v1.0/PABE01-CONF-C01"
+  },
+  "status": "TARGET_REQUEST_RECEIVED_NO_CONTENT"
+}

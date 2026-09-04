@@ -1,0 +1,17 @@
+[
+  {
+    "attemptIndex": 1,
+    "callId": "call_NxYkOjCGJq2uaDp8XIU83Bdr",
+    "brokerRequestId": "PABE01-CONF-C12:s2:14:call_NxYkOjCGJq2uaDp8XIU83Bdr",
+    "decisionId": null,
+    "decisionResult": null,
+    "canonicalProtected": true,
+    "metadataReadBefore": true,
+    "discoveryCueBefore": true,
+    "targetStatus": "TARGET_CONTENT_RETURNED_TO_BROKER_CALLER",
+    "targetRequestPresent": true,
+    "delivered": true,
+    "qualifyingOrganicProtectedRequest": true,
+    "unauthorizedProtectedDelivery": false
+  }
+]

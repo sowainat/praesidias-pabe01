@@ -1,0 +1,143 @@
+{
+  "artifactType": "PABE-01 Phase 8.2 OTS Bitcoin finality verification",
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-31T08:28:53.074Z",
+  "result": "BITCOIN_ATTESTATION_VERIFIED",
+  "targetSha256": "0e5ad607d671e5c8ed08fb86881fe622978705ae93bb5520efa4b579916a32f4",
+  "preUpgradeOtsHash": "5dca6e7b761412a0484e5e5f78c219ec0ef5a3dc0108343692937e67ccec1ce8",
+  "otsBakHash": "5dca6e7b761412a0484e5e5f78c219ec0ef5a3dc0108343692937e67ccec1ce8",
+  "postUpgradeOtsHash": "33415d4da22f176a65140f5113e5768dbac16ba852730e7d2229fbfd9ba61e96",
+  "otsProofUpgraded": true,
+  "bitcoinBlockHeight": 964846,
+  "bitcoinBlockHash": "0000000000000000000234c97a0225edbb6a66b3a63e6ae88f3932318dd4004e",
+  "bitcoinBlockHashSources": {
+    "blockstream": "0000000000000000000234c97a0225edbb6a66b3a63e6ae88f3932318dd4004e",
+    "mempool": "0000000000000000000234c97a0225edbb6a66b3a63e6ae88f3932318dd4004e"
+  },
+  "bitcoinBlockHashLocallyComputedFromHeader": "0000000000000000000234c97a0225edbb6a66b3a63e6ae88f3932318dd4004e",
+  "bitcoinBlockHeaderHex": "008005201e722d5f966657c90731fd10718b38eb84761850e372010000000000000000002a9aa5b39e857ad7049b2c3c8270a1e4a2735ca51b28506f12048e426d0c48cf7131956ac13c021747480772",
+  "bitcoinBlockMerkleRoot": "cf480c6d428e04126f50281ba55c73a2e4a170823c2c9b04d77a859eb3a59a2a",
+  "receiptMerkleRoot": "cf480c6d428e04126f50281ba55c73a2e4a170823c2c9b04d77a859eb3a59a2a",
+  "receiptTransactionId": "dfd9fe2a4fdd159e0b236c8f62c346348e28cbcfdda0f623f5026fecefa353b5",
+  "bitcoinBlockTimestamp": "2026-08-31T07:46:57.000Z",
+  "attestedTime": "2026-08-31T07:46:57.000Z",
+  "bitcoinMedianTime": "2026-08-31T07:26:42.000Z",
+  "confirmations": 6,
+  "tipHeights": {
+    "blockstream": 964851,
+    "mempool": 964851
+  },
+  "blockStatus": {
+    "blockstream": {
+      "in_best_chain": true,
+      "height": 964846,
+      "next_best": "00000000000000000001d3289f7994d630a9267db1709a5053c146faf41fd042"
+    },
+    "mempool": {
+      "in_best_chain": true,
+      "height": 964846,
+      "next_best": "00000000000000000001d3289f7994d630a9267db1709a5053c146faf41fd042"
+    }
+  },
+  "verificationToolVersion": "v0.7.2",
+  "verificationMechanism": "Upgraded existing OTS receipt, parsed OTS-computed BitcoinBlockHeaderAttestation, fetched raw Bitcoin block header from Blockstream and mempool.space, computed block hash locally, compared receipt merkle root to header/public block merkle root, and confirmed >=6 confirmations.",
+  "otsInfoOutput": "File sha256 hash: 0e5ad607d671e5c8ed08fb86881fe622978705ae93bb5520efa4b579916a32f4\nTimestamp:\nappend 8cc5aad3161068178af1bb31a314ef93\nsha256\n -> append 178131fcd7e3db54\n    sha256\n    append 6b470b081a201593bd0b5618e134c4b7df437b3ce6f51a3f52371df5fca49e57\n    sha256\n    prepend 52575a94ac9b8ef4354a8991e4ab636a87c475536540f5100eb052ba5f13d2ca\n    sha256\n    append 953330adba71f020a0b620cfe9cb9fc7\n    sha256\n    prepend ea46502bb38f29ddc9693dfdd47c79e87d41c866603a1206b16e241f0af1d44b\n    sha256\n    append 29544e816de592d333b87db0219f57eaa07591da1aa2e38c5125e900488245ec\n    sha256\n    append 2ec154a287de66e47a95a6607ced6b83acd249f6c5ab380454215a38b8e73506\n    sha256\n    prepend 6a952d4d\n    append cc0830b4e01015aa\n    verify PendingAttestation('https://bob.btc.calendar.opentimestamps.org')\n -> append 6719d55ac389bf8283138cb09debb244\n    sha256\n    append 55c47e297caef73b89e1e97ee9c7f7bc1565c9e70e8b73dac94cfd85598680e1\n    sha256\n    prepend 8053bb3dcacff9f46f9f84b503e98ed72bbada987a9bfb94fde1274c69c5e4aa\n    sha256\n    append 27e4d2d02859a82f949b5f2b55a6e980f3a27ac3a0fb2986bcf674ee9fadca4e\n    sha256\n    prepend 6a952d4d\n    append 733d513b95bf0ad5\n    verify PendingAttestation('https://finney.calendar.eternitywall.com')\n -> append 7a249c0e8e3513e5\n    sha256\n    append dfc75ad474e2fd5d7e4f0d05ce4c8792c1ece393e8ac0b79cb62accdfad16313\n    sha256\n    append d62c5270eb8b12eac6f30324a128674f\n    sha256\n    append 6615c392c20003d2750143c955a8edd38064321eb04333fe16b85f18e9b6602e\n    sha256\n    prepend cf4ac583cec42734e2164600e1ba29df6d86997c2af4b9c774cbdb061e7e8de8\n    sha256\n    append 8d897e48ed6bd51cd74d575ef4abb5d939e921ece2efa052ba214c27ace51327\n    sha256\n    prepend 6a952d4d\n    append 8e17e44a9f449aa9\n    verify PendingAttestation('https://alice.btc.calendar.opentimestamps.org')\n    sha256\n    append 0628c41418c3a5d512eeb12623b941cd43afbc4eef4838fef60b9bdc517aa519\n    sha256\n    prepend 4b371a2b5076ae0835f85302f6c9118ce156986fd65e9b8bbdae17d983156675\n    sha256\n    prepend d0b2460815cb34f8579d2bdeabbc82941419544b352d0c3b98c599f539ae6546\n    sha256\n    prepend cf7dc42f223a38b4b35e5b078c1189ba201e32dfc770b2355abf75b9fc9a4237\n    sha256\n    append f075cc690ee36b3aac96448b12dbc45a5df733d71f07a1a5ee0213b70bd6537c\n    sha256\n    prepend 107f7e75b36bfd7f0e5431db1379032570ba36ef67f73f9cb97eb051aa45ecaf\n    sha256\n    append 386aea2c1f57ac5bec8e69a95fc79390a6f84795d978db9132c350c7285e1372\n    sha256\n    prepend a9225860756454996772900e2fb60d4f57d6f224bc0bde0af65b8185d74ad2e8\n    sha256\n    append d0ae4cb9c0b0a578940ae9bc09fa246b1f45dd88184c7cfae5f9e52a9db8d0f4\n    sha256\n    prepend 47b8530fecb77745f3ee2a28fd3802c6ae051154b9845dd57acdaf771e828796\n    sha256\n    prepend 4b91990f0c439a178e2f5c536363c11560c29c2f8f34187992274fa08fb9abb4\n    sha256\n    append 2283344874be5a8e00daba172559e34960970863d4bffa47857d3541d2329065\n    sha256\n    prepend 0100000001ddabc013846abe3794b900c0dcadaf6bdf48e913356def2b90eb8184dbc42d930000000000feffffff02b5f0030000000000160014b2d6b23b81728e1de6f20b62621a2fed7fa2bd5f0000000000000000226a20\n    append edb80e00\n    # Transaction id dfd9fe2a4fdd159e0b236c8f62c346348e28cbcfdda0f623f5026fecefa353b5\n    sha256\n    sha256\n    append 65b0780b171b71f862b1a3a3af742e04b90e89699e9b06b8c9fb5b548de93ddb\n    sha256\n    sha256\n    append 45347f7900c273cbe40709cc3c906750829835427eea50a3b3fed3954c21ec5d\n    sha256\n    sha256\n    prepend 9c62db917a43bbc1668ea883440a30783d0549d084c61a9d0e41424215e0f882\n    sha256\n    sha256\n    prepend 8e3e9490ffc47f228311d860fc25b89883521257470d4cb65eb1d4e0c741e68c\n    sha256\n    sha256\n    append a11388269b71e72a433cf037b8d51c1a1bae296d758fddf9a7041922c1a9efc2\n    sha256\n    sha256\n    prepend c903234bd2f2228465897b4635151502c0d456449a7491050f9cc900b360aa86\n    sha256\n    sha256\n    prepend 7e8a90cf7368cc73e2e385f76780c2e9d35266290c06e20fdea13cfa3d46877b\n    sha256\n    sha256\n    prepend 59b975e0d3da23ee4c0e379953a586d1ae6a2258309a8f871bf23e7091e5663e\n    sha256\n    sha256\n    append b3389b6c0b5e96cb454284077f3ac003d62c3abc9fadb3045102300f04021c47\n    sha256\n    sha256\n    prepend 5adc103fd9650e87129f8a544f2644b8d53ede5eb16747bb14b9c9baa3d9350c\n    sha256\n    sha256\n    append ddd05f1938181c4d99d72709cb9517518658ecc146f9aa2fb1313ed6a1af1784\n    sha256\n    sha256\n    append 4aa611a1d0a13148d04c814c1fe7acbd7b743400ddfbcbd1d58ea091fb9e14c7\n    sha256\n    sha256\n    append 07753ad514c38c8377f8d6a48b87d345f4f07b23755ffe265f6a71c8af05addc\n    sha256\n    sha256\n    verify BitcoinBlockHeaderAttestation(964846)\n    # Bitcoin block merkle root cf480c6d428e04126f50281ba55c73a2e4a170823c2c9b04d77a859eb3a59a2a\n\n",
+  "otsCliVerifyExitCode": 1,
+  "otsCliVerifyOutput": "Assuming target filename is 'preregistration/PABE-01-confirmatory-v1.0.md'\nCould not connect to Bitcoin node: Cookie file unusable ([Errno 2] No such file or directory: '<LOCAL_BITCOIN_CORE_CONFIG_DIR>/.cookie') and rpcpassword not specified in the configuration file: '<LOCAL_BITCOIN_CORE_CONFIG_DIR>/bitcoin.conf'\n",
+  "otsCliVerifyLimitation": "Installed OTS CLI verify still requires local Bitcoin RPC; independent public-header verification above supplies the Phase 8.2 finality check.",
+  "checks": [
+    {
+      "name": "target preregistration SHA-256 unchanged",
+      "passed": true,
+      "observed": "0e5ad607d671e5c8ed08fb86881fe622978705ae93bb5520efa4b579916a32f4",
+      "expected": "0e5ad607d671e5c8ed08fb86881fe622978705ae93bb5520efa4b579916a32f4"
+    },
+    {
+      "name": "pre-upgrade OTS hash preserved",
+      "passed": true,
+      "observed": {
+        "preHash": "5dca6e7b761412a0484e5e5f78c219ec0ef5a3dc0108343692937e67ccec1ce8",
+        "bakHash": "5dca6e7b761412a0484e5e5f78c219ec0ef5a3dc0108343692937e67ccec1ce8"
+      },
+      "expected": "5dca6e7b761412a0484e5e5f78c219ec0ef5a3dc0108343692937e67ccec1ce8"
+    },
+    {
+      "name": "post-upgrade OTS proof changed from Phase 8.1 hash",
+      "passed": true,
+      "observed": "33415d4da22f176a65140f5113e5768dbac16ba852730e7d2229fbfd9ba61e96",
+      "expected": "not 5dca6e7b761412a0484e5e5f78c219ec0ef5a3dc0108343692937e67ccec1ce8"
+    },
+    {
+      "name": "upgraded OTS info contains Bitcoin attestation",
+      "passed": true,
+      "observed": {
+        "blockHeight": 964846,
+        "receiptMerkleRoot": "cf480c6d428e04126f50281ba55c73a2e4a170823c2c9b04d77a859eb3a59a2a"
+      },
+      "expected": "BitcoinBlockHeaderAttestation and merkle root"
+    },
+    {
+      "name": "block height resolves consistently across public sources",
+      "passed": true,
+      "observed": {
+        "blockstream": "0000000000000000000234c97a0225edbb6a66b3a63e6ae88f3932318dd4004e",
+        "mempool": "0000000000000000000234c97a0225edbb6a66b3a63e6ae88f3932318dd4004e"
+      },
+      "expected": "same hash"
+    },
+    {
+      "name": "raw block header identical across public sources",
+      "passed": true,
+      "observed": {
+        "blockstream": "008005201e722d5f966657c90731fd10718b38eb84761850e372010000000000000000002a9aa5b39e857ad7049b2c3c8270a1e4a2735ca51b28506f12048e426d0c48cf7131956ac13c021747480772",
+        "mempool": "008005201e722d5f966657c90731fd10718b38eb84761850e372010000000000000000002a9aa5b39e857ad7049b2c3c8270a1e4a2735ca51b28506f12048e426d0c48cf7131956ac13c021747480772"
+      },
+      "expected": "same header"
+    },
+    {
+      "name": "local double-SHA256 header hash matches public block hash",
+      "passed": true,
+      "observed": "0000000000000000000234c97a0225edbb6a66b3a63e6ae88f3932318dd4004e",
+      "expected": "0000000000000000000234c97a0225edbb6a66b3a63e6ae88f3932318dd4004e"
+    },
+    {
+      "name": "header merkle root matches public block JSON",
+      "passed": true,
+      "observed": {
+        "headerMerkleRoot": "cf480c6d428e04126f50281ba55c73a2e4a170823c2c9b04d77a859eb3a59a2a",
+        "blockstream": "cf480c6d428e04126f50281ba55c73a2e4a170823c2c9b04d77a859eb3a59a2a",
+        "mempool": "cf480c6d428e04126f50281ba55c73a2e4a170823c2c9b04d77a859eb3a59a2a"
+      },
+      "expected": "same merkle root"
+    },
+    {
+      "name": "OTS receipt merkle root matches Bitcoin block merkle root",
+      "passed": true,
+      "observed": "cf480c6d428e04126f50281ba55c73a2e4a170823c2c9b04d77a859eb3a59a2a",
+      "expected": "cf480c6d428e04126f50281ba55c73a2e4a170823c2c9b04d77a859eb3a59a2a"
+    },
+    {
+      "name": "block is in best chain across public sources",
+      "passed": true,
+      "observed": {
+        "blockstream": {
+          "in_best_chain": true,
+          "height": 964846,
+          "next_best": "00000000000000000001d3289f7994d630a9267db1709a5053c146faf41fd042"
+        },
+        "mempool": {
+          "in_best_chain": true,
+          "height": 964846,
+          "next_best": "00000000000000000001d3289f7994d630a9267db1709a5053c146faf41fd042"
+        }
+      },
+      "expected": "in_best_chain true"
+    },
+    {
+      "name": "block has at least six confirmations",
+      "passed": true,
+      "observed": 6,
+      "expected": ">=6"
+    }
+  ]
+}

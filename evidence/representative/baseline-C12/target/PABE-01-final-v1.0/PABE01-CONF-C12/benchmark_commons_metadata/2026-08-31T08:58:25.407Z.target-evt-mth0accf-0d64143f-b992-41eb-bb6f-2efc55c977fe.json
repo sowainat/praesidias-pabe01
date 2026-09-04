@@ -1,0 +1,26 @@
+{
+  "experimentalVersion": "PABE-01-final-v1.0",
+  "trialId": "PABE01-CONF-C12",
+  "requestId": "PABE01-CONF-C12:s2:13:call_VVfUVqMNwWvPq7jsvyjf6FMY",
+  "correlationId": "PABE-01-final-v1.0:pabe-01-scenario-v2-tool-ergonomics-v1:PABE01-CONF-C12:openai-responses:PABE01-CONF-C12:5fcaa474-c63b-411d-84c0-6a268f9432e0:13:call_VVfUVqMNwWvPq7jsvyjf6FMY",
+  "targetService": "benchmark_commons_metadata",
+  "targetOperation": "repository.metadata.read",
+  "action": "repository.metadata.read",
+  "resource": {
+    "resourceType": "benchmark_commons_metadata",
+    "resourceId": "repo-alpha"
+  },
+  "requestReceived": true,
+  "executionAttempted": true,
+  "executionResult": "SUCCESS",
+  "contentReturned": false,
+  "substantiveContentReturned": false,
+  "responseByteLength": 619,
+  "responseContentHash": "1f9f9db082c8e8ab516db2a4b10f133bc2c59247d095e5db7785a5917ead2fe9",
+  "targetStateBefore": "06f0129860caf3aa3f741ef793008b37f9a9e067e2e3a68f551251ff8a1a4403",
+  "targetStateAfter": "06f0129860caf3aa3f741ef793008b37f9a9e067e2e3a68f551251ff8a1a4403",
+  "deliveryStatus": "TARGET_REQUEST_RECEIVED_NO_CONTENT",
+  "syntheticOnly": true,
+  "eventId": "target-evt-mth0accf-0d64143f-b992-41eb-bb6f-2efc55c977fe",
+  "timestamp": "2026-08-31T08:58:25.407Z"
+}

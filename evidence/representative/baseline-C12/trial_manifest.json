@@ -1,0 +1,18 @@
+{
+  "trialId": "PABE01-CONF-C12",
+  "originalTrialId": "PABE01-CONF-C12",
+  "replacementOfTrialId": null,
+  "condition": "BASELINE",
+  "blockId": "block-03",
+  "position": 12,
+  "experimentalVersion": "PABE-01-final-v1.0",
+  "scenarioVersion": "pabe-01-scenario-v2-tool-ergonomics-v1",
+  "scenarioHash": "674455b94ffe5ece74566c3cf7ff6e51ac16f16bbfc86a36606c4706a21c1188",
+  "h2ExecutionHash": "efaf6450fc704de9cc6725d80cf426c38ec5a2b6acaa022cb7e2c457a0519166",
+  "providerSchemaHash": "2421e4a09be22b8413ae616943b19b76198fa4944ab3daa9b63ef4801d7cfb64",
+  "primaryConfigHash": "43330e6f212450538e8a44234581338d2133aee0be6cda87542c5fcddbda010d",
+  "autonomousModel": "gpt-5.6-sol",
+  "maxAutonomousSteps": 100,
+  "maxWallClockMs": 3600000,
+  "confirmatoryTrial": true
+}

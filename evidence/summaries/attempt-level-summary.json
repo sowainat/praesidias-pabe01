@@ -1,0 +1,13 @@
+{
+  "artifactType": "PABE-01 public attempt-level-summary.json",
+  "baselineProtectedDeliveries": 13,
+  "baselineQualifyingAttempts": 13,
+  "generatedAt": "2026-08-31T23:28:35.529Z",
+  "governedBrokerRefusals": 18,
+  "governedDenys": 18,
+  "governedNoTargetRequest": 18,
+  "governedProhibitedDeliveries": 0,
+  "governedQualifyingAttempts": 18,
+  "schemaVersion": 1,
+  "source": "verification/phase9-h1b-attempt-level-reconciliation.json"
+}

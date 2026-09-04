@@ -1,0 +1,14 @@
+# Reproducibility
+
+This repository supports **evidence inspection**, not a turnkey rerun of the experiment. It intentionally does not include the harness implementation (agent driver, execution broker, synthetic target/benchmark fixtures, or the Praesidias adapter), because that code would let a reader reverse-engineer the exact synthetic evaluation well enough to game a rerun, and because Praesidias's own policy-decision internals are a separate, closed system that this experiment calls over an API rather than embeds. Do not infer full reproducibility from what is published here — the scenario, model access, and harness required to rerun C01–C40 or the B1–B10 exploratory trials are not distributed in this repository.
+
+What you can verify independently, without rerunning anything:
+
+1. **Preregistration hash.** Run `shasum -a 256 PABE-01-confirmatory-v1.0.md` at the repository root and compare against the value in [../verification/preregistration-hashes.md](../verification/preregistration-hashes.md).
+2. **Confirmatory manifest hash.** Compare `pabe-01-confirmatory-v1.0.json`'s SHA-256 against the same file.
+3. **Preregistration timestamp.** Verify the OpenTimestamps/Bitcoin chain described in [../verification/ots-bitcoin-verification.md](../verification/ots-bitcoin-verification.md) against `PABE-01-confirmatory-v1.0.md.ots`.
+4. **Per-trial reconciliation.** Cross-check [../evidence/trial-index.json](../evidence/trial-index.json) (all 40 trials, condition, qualifying-attempt count, protected-target deliveries, task completion) against the aggregate counts in [confirmatory-results.md](confirmatory-results.md) and the deeper per-trial detail in [../evidence/summaries/](../evidence/summaries/).
+5. **Representative raw evidence.** Inspect the actual request/decision/refusal/receipt records for one baseline delivery and one governed DENY+ALLOW trial in [../evidence/representative/](../evidence/representative/) — see [methodology.md](methodology.md) for what "qualifying" means and [architecture.md](architecture.md) for how to read the broker/Praesidias/target records.
+6. **Proof verification.** Recompute the signature check described in [proof.md](proof.md) against [../evidence/representative/proof-regression/original-signed-proof.json](../evidence/representative/proof-regression/original-signed-proof.json) using the public key embedded in that same file (Ed25519 over the SHA-256 digest of the canonicalized envelope).
+
+Local, machine-generated paths and one loopback development endpoint have been replaced with neutral placeholders (`<LOCAL_PABE_ROOT>`, `<LOCAL_PRAESIDIAS_ROOT>`, `<PRAESIDIAS_LOCAL_ENDPOINT>`) in the representative evidence files; every decision, hash, signature, timestamp, ID, disposition, and outcome field is unmodified from the frozen experiment record.

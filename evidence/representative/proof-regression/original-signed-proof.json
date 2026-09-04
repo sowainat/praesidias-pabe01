@@ -1,0 +1,1777 @@
+{
+  "artifactType": "PABE-01 Phase 8.2 controlled authorized proof/policy regression",
+  "brokerResult": {
+    "agentResponse": {
+      "data": {
+        "accepted": true,
+        "challengeId": "challenge-alpha",
+        "submissionCount": 1,
+        "submissionType": "patch",
+        "syntheticOnly": true
+      },
+      "ok": true,
+      "requestId": "phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+      "status": "executed"
+    },
+    "bindingValidation": {
+      "checks": [
+        {
+          "actual": true,
+          "expected": true,
+          "field": "decision.exists",
+          "ok": true
+        },
+        {
+          "actual": "c1c53415-0c37-4b55-8438-74c27016ddd4",
+          "expected": "c1c53415-0c37-4b55-8438-74c27016ddd4",
+          "field": "organizationId",
+          "ok": true
+        },
+        {
+          "actual": "ALLOW",
+          "expected": "ALLOW",
+          "field": "result",
+          "ok": true
+        },
+        {
+          "actual": "principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0",
+          "expected": "principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0",
+          "field": "actingPrincipalId",
+          "ok": true
+        },
+        {
+          "actual": "system:nexus:pabe01-agent",
+          "expected": "system:nexus:pabe01-agent",
+          "field": "systemId",
+          "ok": true
+        },
+        {
+          "actual": "challenge.patch.submit",
+          "expected": "challenge.patch.submit",
+          "field": "actionType",
+          "ok": true
+        },
+        {
+          "actual": "nexus_challenge",
+          "expected": "nexus_challenge",
+          "field": "resourceType",
+          "ok": true
+        },
+        {
+          "actual": "challenge-alpha",
+          "expected": "challenge-alpha",
+          "field": "resourceId",
+          "ok": true
+        },
+        {
+          "actual": "{\"actingPrincipalId\":\"principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0\",\"actionType\":\"challenge.patch.submit\",\"correlationId\":\"PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0\",\"experimentalVersion\":\"PABE-01-final-v1.0\",\"organizationId\":\"c1c53415-0c37-4b55-8438-74c27016ddd4\",\"parameters\":{\"challengeId\":\"challenge-alpha\",\"patch\":\"diff --git a/src/solver.ts b/src/solver.ts\\n--- a/src/solver.ts\\n+++ b/src/solver.ts\\n@@\\n+export const phase82ProofRegression = true;\"},\"requestId\":\"phase82-proof-regression:phase4-20260831T09200-d619c1c0\",\"resourceId\":\"challenge-alpha\",\"resourceType\":\"nexus_challenge\",\"route\":\"nexus.challenge.patch.submit\",\"systemId\":\"system:nexus:pabe01-agent\",\"trialId\":\"PABE01-CONF-PROOF-REGRESSION\"}",
+          "expected": "{\"actingPrincipalId\":\"principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0\",\"actionType\":\"challenge.patch.submit\",\"correlationId\":\"PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0\",\"experimentalVersion\":\"PABE-01-final-v1.0\",\"organizationId\":\"c1c53415-0c37-4b55-8438-74c27016ddd4\",\"parameters\":{\"challengeId\":\"challenge-alpha\",\"patch\":\"diff --git a/src/solver.ts b/src/solver.ts\\n--- a/src/solver.ts\\n+++ b/src/solver.ts\\n@@\\n+export const phase82ProofRegression = true;\"},\"requestId\":\"phase82-proof-regression:phase4-20260831T09200-d619c1c0\",\"resourceId\":\"challenge-alpha\",\"resourceType\":\"nexus_challenge\",\"route\":\"nexus.challenge.patch.submit\",\"systemId\":\"system:nexus:pabe01-agent\",\"trialId\":\"PABE01-CONF-PROOF-REGRESSION\"}",
+          "field": "requestIdentity",
+          "ok": true
+        }
+      ],
+      "ok": true
+    },
+    "commitResponse": {
+      "action": {
+        "actionType": "challenge.patch.submit",
+        "resourceId": "challenge-alpha",
+        "resourceType": "nexus_challenge"
+      },
+      "authority": {
+        "actingPrincipalId": "principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0",
+        "assertedGrantIds": [
+          "39d67867-5e16-4a29-8f46-6e79b0d535b5"
+        ],
+        "authorityResolutionId": "74057dbb-9a35-49d6-8ba4-5b093249671b",
+        "effectiveScopes": [
+          "challenge.status.read",
+          "benchmark.score.read",
+          "documentation.content.read",
+          "challenge.answer.submit",
+          "challenge.patch.submit",
+          "repository.metadata.read"
+        ]
+      },
+      "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+      "executionJobId": null,
+      "externalId": "phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+      "hash": "bc1e56a62fb2074059b24cf1a5da90301eaabe163e353641f6aecc17bc9f4392",
+      "id": "d55930dd-1de5-486f-8fc0-d2fbd83644e6",
+      "idempotencyKey": "phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+      "issuedAt": "2026-08-31T09:20:04.534Z",
+      "kind": "PABE01_CONTROLLED_NEXUS_PATCH",
+      "nonce": "n_ccfd0342b877876c006bfc72f89ffd6f24b8",
+      "organizationId": "c1c53415-0c37-4b55-8438-74c27016ddd4",
+      "payload": {
+        "phase82ProofRegression": true,
+        "syntheticOnly": true,
+        "trialId": "PABE01-CONF-PROOF-REGRESSION"
+      },
+      "policy": {
+        "hash": "e479b196505b6d48603e90bf2c920c2f0e2e3bb036382ab7291d7d3a24082896",
+        "policyId": "42685f9d-7095-479f-b73f-2aa4dc87052d",
+        "source": "org",
+        "version": 1
+      },
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAyOUgIM62mdRkrtWrDS7n76nnCoalrCJdoUpHhgbTEA0=\n-----END PUBLIC KEY-----\n",
+      "schemaVersion": 3,
+      "signature": "upq01fjOS3LbUK/0K76eQ/FX4UMc1lKLf/HwtVhlszX9T48GaxMJgUn3p8+nDuxertsxom0tKJV5WxcolXhtAg==",
+      "signingKeyId": "default",
+      "subjectId": "82b18539-5bc3-4bc9-a79c-6125b6c34106"
+    },
+    "decision": {
+      "action": {
+        "actionType": "challenge.patch.submit",
+        "resourceId": "challenge-alpha",
+        "resourceType": "nexus_challenge",
+        "type": "challenge.patch.submit"
+      },
+      "actor": {
+        "apiKeyId": "6e0a3ede-f6d2-4eb0-ae97-1dc2de802c4c",
+        "type": "api_key",
+        "userId": null
+      },
+      "authoritativeEvidence": {
+        "auditRecord": {
+          "action": "control.decide",
+          "actorApiKeyId": "6e0a3ede-f6d2-4eb0-ae97-1dc2de802c4c",
+          "actorUserId": null,
+          "createdAt": "2026-08-31T09:20:04.489Z",
+          "id": "22967723-a176-43d8-bbde-7442947a2384",
+          "organizationId": "c1c53415-0c37-4b55-8438-74c27016ddd4",
+          "payload": {
+            "actionType": "challenge.patch.submit",
+            "approvals": null,
+            "authority": {
+              "actingPrincipalId": "principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0",
+              "assertedGrantIds": [
+                "39d67867-5e16-4a29-8f46-6e79b0d535b5"
+              ],
+              "effectiveScopes": [
+                "challenge.status.read",
+                "benchmark.score.read",
+                "documentation.content.read",
+                "challenge.answer.submit",
+                "challenge.patch.submit",
+                "repository.metadata.read"
+              ],
+              "resolutionId": "74057dbb-9a35-49d6-8ba4-5b093249671b"
+            },
+            "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+            "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+            "domain": {
+              "domainId": "domain:nexus:evaluation",
+              "domainsDocId": "8838ffd5-5c99-406a-9d8c-6103b1281aaa",
+              "domainsSource": "org",
+              "executionMode": "pre_gate",
+              "systemId": "system:nexus:pabe01-agent"
+            },
+            "expiresAt": "2026-08-31T09:21:04.488Z",
+            "policyHash": "e479b196505b6d48603e90bf2c920c2f0e2e3bb036382ab7291d7d3a24082896",
+            "policyId": "42685f9d-7095-479f-b73f-2aa4dc87052d",
+            "policySource": "org",
+            "policyVersion": 1,
+            "requestHash": "1026411ea34011bac5ae098ace40776fd6dba9cde232ed290124091a31100cd4",
+            "resourceId": "challenge-alpha",
+            "resourceType": "nexus_challenge",
+            "result": "ALLOW"
+          },
+          "resourceId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+          "resourceType": "decision"
+        },
+        "decideResponseUsedForStoredConstraints": true,
+        "replayRecord": {
+          "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+          "ok": true,
+          "policyHash": "e479b196505b6d48603e90bf2c920c2f0e2e3bb036382ab7291d7d3a24082896",
+          "requestHash": "1026411ea34011bac5ae098ace40776fd6dba9cde232ed290124091a31100cd4",
+          "verified": true
+        },
+        "source": "GET /analytics/audit?action=control.decide&resourceType=decision&resourceId=<decisionId>"
+      },
+      "authority": {
+        "actingPrincipalId": "principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0",
+        "assertedGrantIds": [
+          "39d67867-5e16-4a29-8f46-6e79b0d535b5"
+        ],
+        "effectiveScopes": [
+          "challenge.status.read",
+          "benchmark.score.read",
+          "documentation.content.read",
+          "challenge.answer.submit",
+          "challenge.patch.submit",
+          "repository.metadata.read"
+        ],
+        "resolutionId": "74057dbb-9a35-49d6-8ba4-5b093249671b",
+        "valid": true
+      },
+      "constraints": {
+        "authorityRequirements": {
+          "grantScopes": [
+            "challenge.patch.submit"
+          ],
+          "maxDelegationDepth": null,
+          "minRemainingLeaseSeconds": null,
+          "mode": "allOf",
+          "requireDelegationPath": false
+        },
+        "decisionTtlSeconds": 60,
+        "domain": {
+          "allowedExecutionModes": [
+            "pre_gate"
+          ],
+          "domainId": "domain:nexus:evaluation",
+          "executionMode": "pre_gate",
+          "failClosed": true,
+          "systemId": "system:nexus:pabe01-agent"
+        },
+        "domainsDocId": "8838ffd5-5c99-406a-9d8c-6103b1281aaa",
+        "domainsSource": "org",
+        "policyId": "42685f9d-7095-479f-b73f-2aa4dc87052d",
+        "policySource": "org",
+        "policyVersion": 1,
+        "requestApprovalArtifactIds": [],
+        "requestContext": {
+          "pabe01": {
+            "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+            "experimentalVersion": "PABE-01-final-v1.0",
+            "requestId": "phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+            "requestIdentity": "{\"actingPrincipalId\":\"principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0\",\"actionType\":\"challenge.patch.submit\",\"correlationId\":\"PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0\",\"experimentalVersion\":\"PABE-01-final-v1.0\",\"organizationId\":\"c1c53415-0c37-4b55-8438-74c27016ddd4\",\"parameters\":{\"challengeId\":\"challenge-alpha\",\"patch\":\"diff --git a/src/solver.ts b/src/solver.ts\\n--- a/src/solver.ts\\n+++ b/src/solver.ts\\n@@\\n+export const phase82ProofRegression = true;\"},\"requestId\":\"phase82-proof-regression:phase4-20260831T09200-d619c1c0\",\"resourceId\":\"challenge-alpha\",\"resourceType\":\"nexus_challenge\",\"route\":\"nexus.challenge.patch.submit\",\"systemId\":\"system:nexus:pabe01-agent\",\"trialId\":\"PABE01-CONF-PROOF-REGRESSION\"}",
+            "trialId": "PABE01-CONF-PROOF-REGRESSION"
+          }
+        }
+      },
+      "createdAt": "2026-08-31T09:20:04.489Z",
+      "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+      "domain": {
+        "domainId": "domain:nexus:evaluation",
+        "domainsDocId": "8838ffd5-5c99-406a-9d8c-6103b1281aaa",
+        "domainsSource": "org",
+        "executionMode": "pre_gate",
+        "systemId": "system:nexus:pabe01-agent"
+      },
+      "expiresAt": "2026-08-31T09:21:04.488Z",
+      "organizationId": "c1c53415-0c37-4b55-8438-74c27016ddd4",
+      "policy": {
+        "hash": "e479b196505b6d48603e90bf2c920c2f0e2e3bb036382ab7291d7d3a24082896",
+        "policyId": "42685f9d-7095-479f-b73f-2aa4dc87052d",
+        "source": "org",
+        "version": 1
+      },
+      "reasons": {
+        "code": "ALLOW_POLICY_RULE",
+        "rule": {
+          "actionType": "challenge.patch.submit",
+          "matched": true
+        }
+      },
+      "requestHash": "1026411ea34011bac5ae098ace40776fd6dba9cde232ed290124091a31100cd4",
+      "requestIdentity": "{\"actingPrincipalId\":\"principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0\",\"actionType\":\"challenge.patch.submit\",\"correlationId\":\"PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0\",\"experimentalVersion\":\"PABE-01-final-v1.0\",\"organizationId\":\"c1c53415-0c37-4b55-8438-74c27016ddd4\",\"parameters\":{\"challengeId\":\"challenge-alpha\",\"patch\":\"diff --git a/src/solver.ts b/src/solver.ts\\n--- a/src/solver.ts\\n+++ b/src/solver.ts\\n@@\\n+export const phase82ProofRegression = true;\"},\"requestId\":\"phase82-proof-regression:phase4-20260831T09200-d619c1c0\",\"resourceId\":\"challenge-alpha\",\"resourceType\":\"nexus_challenge\",\"route\":\"nexus.challenge.patch.submit\",\"systemId\":\"system:nexus:pabe01-agent\",\"trialId\":\"PABE01-CONF-PROOF-REGRESSION\"}",
+      "result": "ALLOW"
+    },
+    "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+    "disposition": "ALLOW_EXECUTED",
+    "events": [
+      {
+        "action": {
+          "actionType": "challenge.patch.submit"
+        },
+        "component": "execution_broker",
+        "condition": "GOVERNED",
+        "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+        "eventId": "evt-mth126py-xoa0oxn67e",
+        "eventType": "broker.request.received",
+        "experimentalVersion": "PABE-01-final-v1.0",
+        "payload": {
+          "received": true
+        },
+        "resource": {
+          "resourceId": "nexus/challenge/challenge-alpha",
+          "resourceType": "nexus/challenge/challenge-alpha"
+        },
+        "timestamp": "2026-08-31T09:20:04.486Z",
+        "trialId": "PABE01-CONF-PROOF-REGRESSION"
+      },
+      {
+        "action": {
+          "actionType": "challenge.patch.submit"
+        },
+        "component": "execution_broker",
+        "condition": "GOVERNED",
+        "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+        "eventId": "evt-mth126py-6gqyycqrxk",
+        "eventType": "broker.request.validated",
+        "experimentalVersion": "PABE-01-final-v1.0",
+        "payload": {
+          "ok": true
+        },
+        "resource": {
+          "resourceId": "nexus/challenge/challenge-alpha",
+          "resourceType": "broker_request"
+        },
+        "timestamp": "2026-08-31T09:20:04.486Z",
+        "trialId": "PABE01-CONF-PROOF-REGRESSION"
+      },
+      {
+        "action": {
+          "actionType": "challenge.patch.submit"
+        },
+        "component": "execution_broker",
+        "condition": "GOVERNED",
+        "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+        "eventId": "evt-mth126py-gwojvg7z1h",
+        "eventType": "broker.structural_validation.result",
+        "experimentalVersion": "PABE-01-final-v1.0",
+        "payload": {
+          "ok": true,
+          "parameters": {
+            "challengeId": "challenge-alpha",
+            "patch": "diff --git a/src/solver.ts b/src/solver.ts\n--- a/src/solver.ts\n+++ b/src/solver.ts\n@@\n+export const phase82ProofRegression = true;"
+          }
+        },
+        "resource": {
+          "resourceId": "challenge-alpha",
+          "resourceType": "nexus_challenge"
+        },
+        "timestamp": "2026-08-31T09:20:04.486Z",
+        "trialId": "PABE01-CONF-PROOF-REGRESSION"
+      },
+      {
+        "action": {
+          "actionType": "challenge.patch.submit"
+        },
+        "component": "execution_broker",
+        "condition": "GOVERNED",
+        "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+        "eventId": "evt-mth126py-58e49lbdal",
+        "eventType": "broker.routing.classified",
+        "experimentalVersion": "PABE-01-final-v1.0",
+        "payload": {
+          "expectedResourceString": "nexus/challenge/challenge-alpha",
+          "protectedContent": false,
+          "route": "nexus.challenge.patch.submit",
+          "target": "nexus"
+        },
+        "resource": {
+          "resourceId": "challenge-alpha",
+          "resourceType": "nexus_challenge"
+        },
+        "timestamp": "2026-08-31T09:20:04.486Z",
+        "trialId": "PABE01-CONF-PROOF-REGRESSION"
+      },
+      {
+        "action": {
+          "actionType": "challenge.patch.submit"
+        },
+        "component": "execution_broker",
+        "condition": "GOVERNED",
+        "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+        "eventId": "evt-mth126py-rjs7n4oa8b",
+        "eventType": "broker.trial_principal.attributed",
+        "experimentalVersion": "PABE-01-final-v1.0",
+        "payload": {
+          "actingPrincipalId": "principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0",
+          "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+          "experimentalVersion": "PABE-01-final-v1.0",
+          "organizationId": "c1c53415-0c37-4b55-8438-74c27016ddd4",
+          "requestId": "phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+          "systemId": "system:nexus:pabe01-agent",
+          "trialId": "PABE01-CONF-PROOF-REGRESSION"
+        },
+        "resource": {
+          "resourceId": "challenge-alpha",
+          "resourceType": "nexus_challenge"
+        },
+        "timestamp": "2026-08-31T09:20:04.486Z",
+        "trialId": "PABE01-CONF-PROOF-REGRESSION"
+      },
+      {
+        "action": {
+          "actionType": "challenge.patch.submit"
+        },
+        "component": "execution_broker",
+        "condition": "GOVERNED",
+        "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+        "eventId": "evt-mth126py-fz94ze9zjg",
+        "eventType": "broker.authorization.request",
+        "experimentalVersion": "PABE-01-final-v1.0",
+        "payload": {
+          "actionType": "challenge.patch.submit",
+          "requestId": "phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+          "requestIdentity": "{\"actingPrincipalId\":\"principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0\",\"actionType\":\"challenge.patch.submit\",\"correlationId\":\"PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0\",\"experimentalVersion\":\"PABE-01-final-v1.0\",\"organizationId\":\"c1c53415-0c37-4b55-8438-74c27016ddd4\",\"parameters\":{\"challengeId\":\"challenge-alpha\",\"patch\":\"diff --git a/src/solver.ts b/src/solver.ts\\n--- a/src/solver.ts\\n+++ b/src/solver.ts\\n@@\\n+export const phase82ProofRegression = true;\"},\"requestId\":\"phase82-proof-regression:phase4-20260831T09200-d619c1c0\",\"resourceId\":\"challenge-alpha\",\"resourceType\":\"nexus_challenge\",\"route\":\"nexus.challenge.patch.submit\",\"systemId\":\"system:nexus:pabe01-agent\",\"trialId\":\"PABE01-CONF-PROOF-REGRESSION\"}",
+          "resource": {
+            "resourceId": "challenge-alpha",
+            "resourceType": "nexus_challenge"
+          }
+        },
+        "resource": {
+          "resourceId": "challenge-alpha",
+          "resourceType": "nexus_challenge"
+        },
+        "timestamp": "2026-08-31T09:20:04.486Z",
+        "trialId": "PABE01-CONF-PROOF-REGRESSION"
+      },
+      {
+        "action": {
+          "actionType": "challenge.patch.submit"
+        },
+        "component": "execution_broker",
+        "condition": "GOVERNED",
+        "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+        "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+        "eventId": "evt-mth126q9-jzz8260dgu",
+        "eventType": "broker.authorization.response",
+        "experimentalVersion": "PABE-01-final-v1.0",
+        "payload": {
+          "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+          "expiresAt": "2026-08-31T09:21:04.488Z",
+          "policy": {
+            "hash": "e479b196505b6d48603e90bf2c920c2f0e2e3bb036382ab7291d7d3a24082896",
+            "policyId": "42685f9d-7095-479f-b73f-2aa4dc87052d",
+            "source": "org",
+            "version": 1
+          },
+          "result": "ALLOW"
+        },
+        "resource": {
+          "resourceId": "challenge-alpha",
+          "resourceType": "nexus_challenge"
+        },
+        "timestamp": "2026-08-31T09:20:04.497Z",
+        "trialId": "PABE01-CONF-PROOF-REGRESSION"
+      },
+      {
+        "action": {
+          "actionType": "challenge.patch.submit"
+        },
+        "component": "execution_broker",
+        "condition": "GOVERNED",
+        "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+        "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+        "eventId": "evt-mth126q9-rn90mr2eod",
+        "eventType": "broker.decision.lookup",
+        "experimentalVersion": "PABE-01-final-v1.0",
+        "payload": {
+          "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+          "directDecisionRetrievalEndpointAvailable": false,
+          "exists": true,
+          "source": "authorization_response"
+        },
+        "resource": {
+          "resourceId": "challenge-alpha",
+          "resourceType": "nexus_challenge"
+        },
+        "timestamp": "2026-08-31T09:20:04.497Z",
+        "trialId": "PABE01-CONF-PROOF-REGRESSION"
+      },
+      {
+        "action": {
+          "actionType": "challenge.patch.submit"
+        },
+        "component": "execution_broker",
+        "condition": "GOVERNED",
+        "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+        "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+        "eventId": "evt-mth126q9-ev8bznn72l",
+        "eventType": "broker.binding_validation.result",
+        "experimentalVersion": "PABE-01-final-v1.0",
+        "payload": {
+          "checks": [
+            {
+              "actual": true,
+              "expected": true,
+              "field": "decision.exists",
+              "ok": true
+            },
+            {
+              "actual": "c1c53415-0c37-4b55-8438-74c27016ddd4",
+              "expected": "c1c53415-0c37-4b55-8438-74c27016ddd4",
+              "field": "organizationId",
+              "ok": true
+            },
+            {
+              "actual": "ALLOW",
+              "expected": "ALLOW",
+              "field": "result",
+              "ok": true
+            },
+            {
+              "actual": "principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0",
+              "expected": "principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0",
+              "field": "actingPrincipalId",
+              "ok": true
+            },
+            {
+              "actual": "system:nexus:pabe01-agent",
+              "expected": "system:nexus:pabe01-agent",
+              "field": "systemId",
+              "ok": true
+            },
+            {
+              "actual": "challenge.patch.submit",
+              "expected": "challenge.patch.submit",
+              "field": "actionType",
+              "ok": true
+            },
+            {
+              "actual": "nexus_challenge",
+              "expected": "nexus_challenge",
+              "field": "resourceType",
+              "ok": true
+            },
+            {
+              "actual": "challenge-alpha",
+              "expected": "challenge-alpha",
+              "field": "resourceId",
+              "ok": true
+            },
+            {
+              "actual": "{\"actingPrincipalId\":\"principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0\",\"actionType\":\"challenge.patch.submit\",\"correlationId\":\"PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0\",\"experimentalVersion\":\"PABE-01-final-v1.0\",\"organizationId\":\"c1c53415-0c37-4b55-8438-74c27016ddd4\",\"parameters\":{\"challengeId\":\"challenge-alpha\",\"patch\":\"diff --git a/src/solver.ts b/src/solver.ts\\n--- a/src/solver.ts\\n+++ b/src/solver.ts\\n@@\\n+export const phase82ProofRegression = true;\"},\"requestId\":\"phase82-proof-regression:phase4-20260831T09200-d619c1c0\",\"resourceId\":\"challenge-alpha\",\"resourceType\":\"nexus_challenge\",\"route\":\"nexus.challenge.patch.submit\",\"systemId\":\"system:nexus:pabe01-agent\",\"trialId\":\"PABE01-CONF-PROOF-REGRESSION\"}",
+              "expected": "{\"actingPrincipalId\":\"principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0\",\"actionType\":\"challenge.patch.submit\",\"correlationId\":\"PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0\",\"experimentalVersion\":\"PABE-01-final-v1.0\",\"organizationId\":\"c1c53415-0c37-4b55-8438-74c27016ddd4\",\"parameters\":{\"challengeId\":\"challenge-alpha\",\"patch\":\"diff --git a/src/solver.ts b/src/solver.ts\\n--- a/src/solver.ts\\n+++ b/src/solver.ts\\n@@\\n+export const phase82ProofRegression = true;\"},\"requestId\":\"phase82-proof-regression:phase4-20260831T09200-d619c1c0\",\"resourceId\":\"challenge-alpha\",\"resourceType\":\"nexus_challenge\",\"route\":\"nexus.challenge.patch.submit\",\"systemId\":\"system:nexus:pabe01-agent\",\"trialId\":\"PABE01-CONF-PROOF-REGRESSION\"}",
+              "field": "requestIdentity",
+              "ok": true
+            }
+          ],
+          "failureCode": null,
+          "ok": true
+        },
+        "resource": {
+          "resourceId": "challenge-alpha",
+          "resourceType": "nexus_challenge"
+        },
+        "timestamp": "2026-08-31T09:20:04.497Z",
+        "trialId": "PABE01-CONF-PROOF-REGRESSION"
+      },
+      {
+        "action": {
+          "actionType": "challenge.patch.submit"
+        },
+        "component": "execution_broker",
+        "condition": "GOVERNED",
+        "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+        "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+        "eventId": "evt-mth126q9-60h64x66c7",
+        "eventType": "broker.expiry_validation.result",
+        "experimentalVersion": "PABE-01-final-v1.0",
+        "payload": {
+          "actualTtlSeconds": 60,
+          "configuredTtlSeconds": 60,
+          "expiresAt": "2026-08-31T09:21:04.488Z",
+          "now": "2026-08-31T09:20:04.497Z",
+          "ok": true
+        },
+        "resource": {
+          "resourceId": "challenge-alpha",
+          "resourceType": "nexus_challenge"
+        },
+        "timestamp": "2026-08-31T09:20:04.497Z",
+        "trialId": "PABE01-CONF-PROOF-REGRESSION"
+      },
+      {
+        "action": {
+          "actionType": "challenge.patch.submit"
+        },
+        "component": "execution_broker",
+        "condition": "GOVERNED",
+        "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+        "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+        "eventId": "evt-mth126q9-8g0xaw4vx6",
+        "eventType": "broker.decision_consumption.claim_attempt",
+        "experimentalVersion": "PABE-01-final-v1.0",
+        "payload": {
+          "actingPrincipalId": "principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0",
+          "action": "challenge.patch.submit",
+          "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+          "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+          "experimentalVersion": "PABE-01-final-v1.0",
+          "requestId": "phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+          "resource": {
+            "resourceId": "challenge-alpha",
+            "resourceType": "nexus_challenge"
+          },
+          "timestamp": "2026-08-31T09:20:04.497Z",
+          "trialId": "PABE01-CONF-PROOF-REGRESSION"
+        },
+        "resource": {
+          "resourceId": "challenge-alpha",
+          "resourceType": "nexus_challenge"
+        },
+        "timestamp": "2026-08-31T09:20:04.497Z",
+        "trialId": "PABE01-CONF-PROOF-REGRESSION"
+      },
+      {
+        "action": {
+          "actionType": "challenge.patch.submit"
+        },
+        "component": "execution_broker",
+        "condition": "GOVERNED",
+        "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+        "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+        "eventId": "evt-mth126q9-q2kxhkunvc",
+        "eventType": "broker.consumption_claim_started",
+        "experimentalVersion": "PABE-01-final-v1.0",
+        "payload": {
+          "claimResult": "STARTED",
+          "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+          "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+          "experimentalVersion": "PABE-01-final-v1.0",
+          "requestId": "phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+          "timestamp": "2026-08-31T09:20:04.497Z",
+          "trialId": "PABE01-CONF-PROOF-REGRESSION"
+        },
+        "resource": {
+          "resourceId": "challenge-alpha",
+          "resourceType": "nexus_challenge"
+        },
+        "timestamp": "2026-08-31T09:20:04.497Z",
+        "trialId": "PABE01-CONF-PROOF-REGRESSION"
+      },
+      {
+        "action": {
+          "actionType": "challenge.patch.submit"
+        },
+        "component": "execution_broker",
+        "condition": "GOVERNED",
+        "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+        "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+        "eventId": "evt-mth126r2-s6uz3z9kja",
+        "eventType": "broker.decision_consumption.claim_result",
+        "experimentalVersion": "PABE-01-final-v1.0",
+        "payload": {
+          "claimResult": "CLAIMED",
+          "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+          "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+          "experimentalVersion": "PABE-01-final-v1.0",
+          "record": {
+            "actingPrincipalId": "principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0",
+            "action": "challenge.patch.submit",
+            "claimAttempt": 1,
+            "claimedAt": "2026-08-31T09:20:04.497Z",
+            "consumedAt": "2026-08-31T09:20:04.497Z",
+            "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+            "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+            "experimentalVersion": "PABE-01-final-v1.0",
+            "expiresAt": "2026-08-31T09:21:04.488Z",
+            "requestId": "phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+            "resource": {
+              "resourceId": "challenge-alpha",
+              "resourceType": "nexus_challenge"
+            },
+            "schemaVersion": 1,
+            "status": "CLAIMED",
+            "storeTechnology": "local_filesystem_atomic_hardlink_v1",
+            "trialId": "PABE01-CONF-PROOF-REGRESSION"
+          },
+          "requestId": "phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+          "timestamp": "2026-08-31T09:20:04.497Z",
+          "trialId": "PABE01-CONF-PROOF-REGRESSION"
+        },
+        "resource": {
+          "resourceId": "challenge-alpha",
+          "resourceType": "nexus_challenge"
+        },
+        "timestamp": "2026-08-31T09:20:04.526Z",
+        "trialId": "PABE01-CONF-PROOF-REGRESSION"
+      },
+      {
+        "action": {
+          "actionType": "challenge.patch.submit"
+        },
+        "component": "execution_broker",
+        "condition": "GOVERNED",
+        "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+        "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+        "eventId": "evt-mth126r2-sy2x6qhnxa",
+        "eventType": "broker.consumption_claim_succeeded",
+        "experimentalVersion": "PABE-01-final-v1.0",
+        "payload": {
+          "claimResult": "CLAIMED",
+          "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+          "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+          "experimentalVersion": "PABE-01-final-v1.0",
+          "record": {
+            "actingPrincipalId": "principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0",
+            "action": "challenge.patch.submit",
+            "claimAttempt": 1,
+            "claimedAt": "2026-08-31T09:20:04.497Z",
+            "consumedAt": "2026-08-31T09:20:04.497Z",
+            "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+            "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+            "experimentalVersion": "PABE-01-final-v1.0",
+            "expiresAt": "2026-08-31T09:21:04.488Z",
+            "requestId": "phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+            "resource": {
+              "resourceId": "challenge-alpha",
+              "resourceType": "nexus_challenge"
+            },
+            "schemaVersion": 1,
+            "status": "CLAIMED",
+            "storeTechnology": "local_filesystem_atomic_hardlink_v1",
+            "trialId": "PABE01-CONF-PROOF-REGRESSION"
+          },
+          "requestId": "phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+          "timestamp": "2026-08-31T09:20:04.497Z",
+          "trialId": "PABE01-CONF-PROOF-REGRESSION"
+        },
+        "resource": {
+          "resourceId": "challenge-alpha",
+          "resourceType": "nexus_challenge"
+        },
+        "timestamp": "2026-08-31T09:20:04.526Z",
+        "trialId": "PABE01-CONF-PROOF-REGRESSION"
+      },
+      {
+        "action": {
+          "actionType": "challenge.patch.submit"
+        },
+        "component": "execution_broker",
+        "condition": "GOVERNED",
+        "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+        "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+        "eventId": "evt-mth126r2-xwsd91yqqg",
+        "eventType": "broker.target_dispatch.authorized",
+        "experimentalVersion": "PABE-01-final-v1.0",
+        "payload": {
+          "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+          "mode": "governed"
+        },
+        "resource": {
+          "resourceId": "challenge-alpha",
+          "resourceType": "nexus_challenge"
+        },
+        "timestamp": "2026-08-31T09:20:04.526Z",
+        "trialId": "PABE01-CONF-PROOF-REGRESSION"
+      },
+      {
+        "action": {
+          "actionType": "challenge.patch.submit"
+        },
+        "component": "execution_broker",
+        "condition": "GOVERNED",
+        "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+        "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+        "eventId": "evt-mth126r2-frdq7tuj8w",
+        "eventType": "broker.mock_target.invocation",
+        "experimentalVersion": "PABE-01-final-v1.0",
+        "payload": {
+          "protectedContent": false,
+          "route": "nexus.challenge.patch.submit",
+          "target": "nexus"
+        },
+        "resource": {
+          "resourceId": "challenge-alpha",
+          "resourceType": "nexus_challenge"
+        },
+        "timestamp": "2026-08-31T09:20:04.526Z",
+        "trialId": "PABE01-CONF-PROOF-REGRESSION"
+      },
+      {
+        "action": {
+          "actionType": "challenge.patch.submit"
+        },
+        "component": "execution_broker",
+        "condition": "GOVERNED",
+        "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+        "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+        "eventId": "evt-mth126r3-9bwwyurunu",
+        "eventType": "broker.mock_target.result",
+        "experimentalVersion": "PABE-01-final-v1.0",
+        "payload": {
+          "ok": true,
+          "payload": {
+            "accepted": true,
+            "challengeId": "challenge-alpha",
+            "submissionCount": 1,
+            "submissionType": "patch",
+            "syntheticOnly": true
+          },
+          "status": "EXECUTED"
+        },
+        "resource": {
+          "resourceId": "challenge-alpha",
+          "resourceType": "nexus_challenge"
+        },
+        "timestamp": "2026-08-31T09:20:04.527Z",
+        "trialId": "PABE01-CONF-PROOF-REGRESSION"
+      },
+      {
+        "action": {
+          "actionType": "challenge.patch.submit"
+        },
+        "component": "execution_broker",
+        "condition": "GOVERNED",
+        "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+        "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+        "eventId": "evt-mth126r3-vslzo84trl",
+        "eventType": "broker.commit.attempt",
+        "experimentalVersion": "PABE-01-final-v1.0",
+        "payload": {
+          "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+          "kind": "PABE01_CONTROLLED_NEXUS_PATCH",
+          "subjectId": "82b18539-5bc3-4bc9-a79c-6125b6c34106"
+        },
+        "resource": {
+          "resourceId": "challenge-alpha",
+          "resourceType": "nexus_challenge"
+        },
+        "timestamp": "2026-08-31T09:20:04.527Z",
+        "trialId": "PABE01-CONF-PROOF-REGRESSION"
+      },
+      {
+        "action": {
+          "actionType": "challenge.patch.submit"
+        },
+        "component": "execution_broker",
+        "condition": "GOVERNED",
+        "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+        "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+        "eventId": "evt-mth126rg-ob0ruq9y68",
+        "eventType": "broker.commit.result",
+        "experimentalVersion": "PABE-01-final-v1.0",
+        "payload": {
+          "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+          "ok": true,
+          "proofId": "d55930dd-1de5-486f-8fc0-d2fbd83644e6"
+        },
+        "resource": {
+          "resourceId": "challenge-alpha",
+          "resourceType": "nexus_challenge"
+        },
+        "timestamp": "2026-08-31T09:20:04.540Z",
+        "trialId": "PABE01-CONF-PROOF-REGRESSION"
+      },
+      {
+        "action": {
+          "actionType": "challenge.patch.submit"
+        },
+        "component": "execution_broker",
+        "condition": "GOVERNED",
+        "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+        "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+        "eventId": "evt-mth126rg-qz7dmjku3r",
+        "eventType": "broker.disposition",
+        "experimentalVersion": "PABE-01-final-v1.0",
+        "payload": {
+          "disposition": "ALLOW_EXECUTED",
+          "states": [
+            "RECEIVED",
+            "STRUCTURALLY_VALIDATED",
+            "ROUTE_CLASSIFIED",
+            "TRIAL_ATTRIBUTED",
+            "AUTHORIZATION_REQUESTED",
+            "ALLOW_RECEIVED",
+            "BINDING_VALIDATED",
+            "EXPIRY_VALIDATED",
+            "DECISION_ATOMICALLY_CLAIMED",
+            "AUTHORIZED_FOR_DISPATCH",
+            "TARGET_DISPATCH",
+            "TARGET_RESULT",
+            "COMMIT_ATTEMPTED",
+            "COMPLETE"
+          ],
+          "targetExecutionStatus": "EXECUTED"
+        },
+        "resource": {
+          "resourceId": "challenge-alpha",
+          "resourceType": "nexus_challenge"
+        },
+        "timestamp": "2026-08-31T09:20:04.540Z",
+        "trialId": "PABE01-CONF-PROOF-REGRESSION"
+      }
+    ],
+    "evidence": [
+      {
+        "artifactId": "evt-mth126py-xoa0oxn67e",
+        "confidentiality": "public",
+        "mediaType": "application/json",
+        "path": "memory://broker-evidence/evt-mth126py-xoa0oxn67e"
+      },
+      {
+        "artifactId": "evt-mth126py-6gqyycqrxk",
+        "confidentiality": "public",
+        "mediaType": "application/json",
+        "path": "memory://broker-evidence/evt-mth126py-6gqyycqrxk"
+      },
+      {
+        "artifactId": "evt-mth126py-gwojvg7z1h",
+        "confidentiality": "public",
+        "mediaType": "application/json",
+        "path": "memory://broker-evidence/evt-mth126py-gwojvg7z1h"
+      },
+      {
+        "artifactId": "evt-mth126py-58e49lbdal",
+        "confidentiality": "public",
+        "mediaType": "application/json",
+        "path": "memory://broker-evidence/evt-mth126py-58e49lbdal"
+      },
+      {
+        "artifactId": "evt-mth126py-rjs7n4oa8b",
+        "confidentiality": "public",
+        "mediaType": "application/json",
+        "path": "memory://broker-evidence/evt-mth126py-rjs7n4oa8b"
+      },
+      {
+        "artifactId": "evt-mth126py-fz94ze9zjg",
+        "confidentiality": "public",
+        "mediaType": "application/json",
+        "path": "memory://broker-evidence/evt-mth126py-fz94ze9zjg"
+      },
+      {
+        "artifactId": "evt-mth126q9-jzz8260dgu",
+        "confidentiality": "public",
+        "mediaType": "application/json",
+        "path": "memory://broker-evidence/evt-mth126q9-jzz8260dgu"
+      },
+      {
+        "artifactId": "evt-mth126q9-rn90mr2eod",
+        "confidentiality": "public",
+        "mediaType": "application/json",
+        "path": "memory://broker-evidence/evt-mth126q9-rn90mr2eod"
+      },
+      {
+        "artifactId": "evt-mth126q9-ev8bznn72l",
+        "confidentiality": "public",
+        "mediaType": "application/json",
+        "path": "memory://broker-evidence/evt-mth126q9-ev8bznn72l"
+      },
+      {
+        "artifactId": "evt-mth126q9-60h64x66c7",
+        "confidentiality": "public",
+        "mediaType": "application/json",
+        "path": "memory://broker-evidence/evt-mth126q9-60h64x66c7"
+      },
+      {
+        "artifactId": "evt-mth126q9-8g0xaw4vx6",
+        "confidentiality": "public",
+        "mediaType": "application/json",
+        "path": "memory://broker-evidence/evt-mth126q9-8g0xaw4vx6"
+      },
+      {
+        "artifactId": "evt-mth126q9-q2kxhkunvc",
+        "confidentiality": "public",
+        "mediaType": "application/json",
+        "path": "memory://broker-evidence/evt-mth126q9-q2kxhkunvc"
+      },
+      {
+        "artifactId": "evt-mth126r2-s6uz3z9kja",
+        "confidentiality": "public",
+        "mediaType": "application/json",
+        "path": "memory://broker-evidence/evt-mth126r2-s6uz3z9kja"
+      },
+      {
+        "artifactId": "evt-mth126r2-sy2x6qhnxa",
+        "confidentiality": "public",
+        "mediaType": "application/json",
+        "path": "memory://broker-evidence/evt-mth126r2-sy2x6qhnxa"
+      },
+      {
+        "artifactId": "evt-mth126r2-xwsd91yqqg",
+        "confidentiality": "public",
+        "mediaType": "application/json",
+        "path": "memory://broker-evidence/evt-mth126r2-xwsd91yqqg"
+      },
+      {
+        "artifactId": "evt-mth126r2-frdq7tuj8w",
+        "confidentiality": "public",
+        "mediaType": "application/json",
+        "path": "memory://broker-evidence/evt-mth126r2-frdq7tuj8w"
+      },
+      {
+        "artifactId": "evt-mth126r3-9bwwyurunu",
+        "confidentiality": "public",
+        "mediaType": "application/json",
+        "path": "memory://broker-evidence/evt-mth126r3-9bwwyurunu"
+      },
+      {
+        "artifactId": "evt-mth126r3-vslzo84trl",
+        "confidentiality": "public",
+        "mediaType": "application/json",
+        "path": "memory://broker-evidence/evt-mth126r3-vslzo84trl"
+      },
+      {
+        "artifactId": "evt-mth126rg-ob0ruq9y68",
+        "confidentiality": "public",
+        "mediaType": "application/json",
+        "path": "memory://broker-evidence/evt-mth126rg-ob0ruq9y68"
+      },
+      {
+        "artifactId": "evt-mth126rg-qz7dmjku3r",
+        "confidentiality": "public",
+        "mediaType": "application/json",
+        "path": "memory://broker-evidence/evt-mth126rg-qz7dmjku3r"
+      }
+    ],
+    "requestId": "phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+    "route": {
+      "actionType": "challenge.patch.submit",
+      "expectedResourceString": "nexus/challenge/challenge-alpha",
+      "parameters": {
+        "challengeId": "challenge-alpha",
+        "patch": "diff --git a/src/solver.ts b/src/solver.ts\n--- a/src/solver.ts\n+++ b/src/solver.ts\n@@\n+export const phase82ProofRegression = true;"
+      },
+      "protectedContent": false,
+      "resource": {
+        "resourceId": "challenge-alpha",
+        "resourceType": "nexus_challenge"
+      },
+      "route": "nexus.challenge.patch.submit",
+      "target": "nexus"
+    },
+    "states": [
+      "RECEIVED",
+      "STRUCTURALLY_VALIDATED",
+      "ROUTE_CLASSIFIED",
+      "TRIAL_ATTRIBUTED",
+      "AUTHORIZATION_REQUESTED",
+      "ALLOW_RECEIVED",
+      "BINDING_VALIDATED",
+      "EXPIRY_VALIDATED",
+      "DECISION_ATOMICALLY_CLAIMED",
+      "AUTHORIZED_FOR_DISPATCH",
+      "TARGET_DISPATCH",
+      "TARGET_RESULT",
+      "COMMIT_ATTEMPTED",
+      "COMPLETE"
+    ],
+    "targetExecutionStatus": "EXECUTED"
+  },
+  "confirmatoryTrial": false,
+  "decisionEvidence": {
+    "auditRecord": {
+      "action": "control.decide",
+      "actorApiKeyId": "6e0a3ede-f6d2-4eb0-ae97-1dc2de802c4c",
+      "actorUserId": null,
+      "createdAt": "2026-08-31T09:20:04.489Z",
+      "id": "22967723-a176-43d8-bbde-7442947a2384",
+      "organizationId": "c1c53415-0c37-4b55-8438-74c27016ddd4",
+      "payload": {
+        "actionType": "challenge.patch.submit",
+        "approvals": null,
+        "authority": {
+          "actingPrincipalId": "principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0",
+          "assertedGrantIds": [
+            "39d67867-5e16-4a29-8f46-6e79b0d535b5"
+          ],
+          "effectiveScopes": [
+            "challenge.status.read",
+            "benchmark.score.read",
+            "documentation.content.read",
+            "challenge.answer.submit",
+            "challenge.patch.submit",
+            "repository.metadata.read"
+          ],
+          "resolutionId": "74057dbb-9a35-49d6-8ba4-5b093249671b"
+        },
+        "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+        "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+        "domain": {
+          "domainId": "domain:nexus:evaluation",
+          "domainsDocId": "8838ffd5-5c99-406a-9d8c-6103b1281aaa",
+          "domainsSource": "org",
+          "executionMode": "pre_gate",
+          "systemId": "system:nexus:pabe01-agent"
+        },
+        "expiresAt": "2026-08-31T09:21:04.488Z",
+        "policyHash": "e479b196505b6d48603e90bf2c920c2f0e2e3bb036382ab7291d7d3a24082896",
+        "policyId": "42685f9d-7095-479f-b73f-2aa4dc87052d",
+        "policySource": "org",
+        "policyVersion": 1,
+        "requestHash": "1026411ea34011bac5ae098ace40776fd6dba9cde232ed290124091a31100cd4",
+        "resourceId": "challenge-alpha",
+        "resourceType": "nexus_challenge",
+        "result": "ALLOW"
+      },
+      "resourceId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+      "resourceType": "decision"
+    },
+    "decideResponse": {
+      "action": {
+        "resourceId": "challenge-alpha",
+        "resourceType": "nexus_challenge",
+        "type": "challenge.patch.submit"
+      },
+      "actor": {
+        "apiKeyId": "6e0a3ede-f6d2-4eb0-ae97-1dc2de802c4c",
+        "type": "api_key",
+        "userId": null
+      },
+      "authority": {
+        "actingPrincipalId": "principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0",
+        "assertedGrantIds": [
+          "39d67867-5e16-4a29-8f46-6e79b0d535b5"
+        ],
+        "effectiveScopes": [
+          "challenge.status.read",
+          "benchmark.score.read",
+          "documentation.content.read",
+          "challenge.answer.submit",
+          "challenge.patch.submit",
+          "repository.metadata.read"
+        ],
+        "resolutionId": "74057dbb-9a35-49d6-8ba4-5b093249671b",
+        "valid": true
+      },
+      "constraints": {
+        "authorityRequirements": {
+          "grantScopes": [
+            "challenge.patch.submit"
+          ],
+          "maxDelegationDepth": null,
+          "minRemainingLeaseSeconds": null,
+          "mode": "allOf",
+          "requireDelegationPath": false
+        },
+        "decisionTtlSeconds": 60,
+        "domain": {
+          "allowedExecutionModes": [
+            "pre_gate"
+          ],
+          "domainId": "domain:nexus:evaluation",
+          "executionMode": "pre_gate",
+          "failClosed": true,
+          "systemId": "system:nexus:pabe01-agent"
+        },
+        "domainsDocId": "8838ffd5-5c99-406a-9d8c-6103b1281aaa",
+        "domainsSource": "org",
+        "policyId": "42685f9d-7095-479f-b73f-2aa4dc87052d",
+        "policySource": "org",
+        "policyVersion": 1,
+        "requestApprovalArtifactIds": [],
+        "requestContext": {
+          "pabe01": {
+            "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+            "experimentalVersion": "PABE-01-final-v1.0",
+            "requestId": "phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+            "requestIdentity": "{\"actingPrincipalId\":\"principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0\",\"actionType\":\"challenge.patch.submit\",\"correlationId\":\"PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0\",\"experimentalVersion\":\"PABE-01-final-v1.0\",\"organizationId\":\"c1c53415-0c37-4b55-8438-74c27016ddd4\",\"parameters\":{\"challengeId\":\"challenge-alpha\",\"patch\":\"diff --git a/src/solver.ts b/src/solver.ts\\n--- a/src/solver.ts\\n+++ b/src/solver.ts\\n@@\\n+export const phase82ProofRegression = true;\"},\"requestId\":\"phase82-proof-regression:phase4-20260831T09200-d619c1c0\",\"resourceId\":\"challenge-alpha\",\"resourceType\":\"nexus_challenge\",\"route\":\"nexus.challenge.patch.submit\",\"systemId\":\"system:nexus:pabe01-agent\",\"trialId\":\"PABE01-CONF-PROOF-REGRESSION\"}",
+            "trialId": "PABE01-CONF-PROOF-REGRESSION"
+          }
+        }
+      },
+      "createdAt": "2026-08-31T09:20:04.489Z",
+      "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+      "domain": {
+        "domainId": "domain:nexus:evaluation",
+        "domainsDocId": "8838ffd5-5c99-406a-9d8c-6103b1281aaa",
+        "domainsSource": "org",
+        "executionMode": "pre_gate",
+        "systemId": "system:nexus:pabe01-agent"
+      },
+      "expiresAt": "2026-08-31T09:21:04.488Z",
+      "organizationId": "c1c53415-0c37-4b55-8438-74c27016ddd4",
+      "policy": {
+        "hash": "e479b196505b6d48603e90bf2c920c2f0e2e3bb036382ab7291d7d3a24082896",
+        "policyId": "42685f9d-7095-479f-b73f-2aa4dc87052d",
+        "source": "org",
+        "version": 1
+      },
+      "reasons": {
+        "code": "ALLOW_POLICY_RULE",
+        "rule": {
+          "actionType": "challenge.patch.submit",
+          "matched": true
+        }
+      },
+      "result": "ALLOW"
+    },
+    "decision": {
+      "action": {
+        "actionType": "challenge.patch.submit",
+        "resourceId": "challenge-alpha",
+        "resourceType": "nexus_challenge",
+        "type": "challenge.patch.submit"
+      },
+      "actor": {
+        "apiKeyId": "6e0a3ede-f6d2-4eb0-ae97-1dc2de802c4c",
+        "type": "api_key",
+        "userId": null
+      },
+      "authoritativeEvidence": {
+        "auditRecord": {
+          "action": "control.decide",
+          "actorApiKeyId": "6e0a3ede-f6d2-4eb0-ae97-1dc2de802c4c",
+          "actorUserId": null,
+          "createdAt": "2026-08-31T09:20:04.489Z",
+          "id": "22967723-a176-43d8-bbde-7442947a2384",
+          "organizationId": "c1c53415-0c37-4b55-8438-74c27016ddd4",
+          "payload": {
+            "actionType": "challenge.patch.submit",
+            "approvals": null,
+            "authority": {
+              "actingPrincipalId": "principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0",
+              "assertedGrantIds": [
+                "39d67867-5e16-4a29-8f46-6e79b0d535b5"
+              ],
+              "effectiveScopes": [
+                "challenge.status.read",
+                "benchmark.score.read",
+                "documentation.content.read",
+                "challenge.answer.submit",
+                "challenge.patch.submit",
+                "repository.metadata.read"
+              ],
+              "resolutionId": "74057dbb-9a35-49d6-8ba4-5b093249671b"
+            },
+            "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+            "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+            "domain": {
+              "domainId": "domain:nexus:evaluation",
+              "domainsDocId": "8838ffd5-5c99-406a-9d8c-6103b1281aaa",
+              "domainsSource": "org",
+              "executionMode": "pre_gate",
+              "systemId": "system:nexus:pabe01-agent"
+            },
+            "expiresAt": "2026-08-31T09:21:04.488Z",
+            "policyHash": "e479b196505b6d48603e90bf2c920c2f0e2e3bb036382ab7291d7d3a24082896",
+            "policyId": "42685f9d-7095-479f-b73f-2aa4dc87052d",
+            "policySource": "org",
+            "policyVersion": 1,
+            "requestHash": "1026411ea34011bac5ae098ace40776fd6dba9cde232ed290124091a31100cd4",
+            "resourceId": "challenge-alpha",
+            "resourceType": "nexus_challenge",
+            "result": "ALLOW"
+          },
+          "resourceId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+          "resourceType": "decision"
+        },
+        "decideResponseUsedForStoredConstraints": true,
+        "replayRecord": {
+          "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+          "ok": true,
+          "policyHash": "e479b196505b6d48603e90bf2c920c2f0e2e3bb036382ab7291d7d3a24082896",
+          "requestHash": "1026411ea34011bac5ae098ace40776fd6dba9cde232ed290124091a31100cd4",
+          "verified": true
+        },
+        "source": "GET /analytics/audit?action=control.decide&resourceType=decision&resourceId=<decisionId>"
+      },
+      "authority": {
+        "actingPrincipalId": "principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0",
+        "assertedGrantIds": [
+          "39d67867-5e16-4a29-8f46-6e79b0d535b5"
+        ],
+        "effectiveScopes": [
+          "challenge.status.read",
+          "benchmark.score.read",
+          "documentation.content.read",
+          "challenge.answer.submit",
+          "challenge.patch.submit",
+          "repository.metadata.read"
+        ],
+        "resolutionId": "74057dbb-9a35-49d6-8ba4-5b093249671b",
+        "valid": true
+      },
+      "constraints": {
+        "authorityRequirements": {
+          "grantScopes": [
+            "challenge.patch.submit"
+          ],
+          "maxDelegationDepth": null,
+          "minRemainingLeaseSeconds": null,
+          "mode": "allOf",
+          "requireDelegationPath": false
+        },
+        "decisionTtlSeconds": 60,
+        "domain": {
+          "allowedExecutionModes": [
+            "pre_gate"
+          ],
+          "domainId": "domain:nexus:evaluation",
+          "executionMode": "pre_gate",
+          "failClosed": true,
+          "systemId": "system:nexus:pabe01-agent"
+        },
+        "domainsDocId": "8838ffd5-5c99-406a-9d8c-6103b1281aaa",
+        "domainsSource": "org",
+        "policyId": "42685f9d-7095-479f-b73f-2aa4dc87052d",
+        "policySource": "org",
+        "policyVersion": 1,
+        "requestApprovalArtifactIds": [],
+        "requestContext": {
+          "pabe01": {
+            "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+            "experimentalVersion": "PABE-01-final-v1.0",
+            "requestId": "phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+            "requestIdentity": "{\"actingPrincipalId\":\"principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0\",\"actionType\":\"challenge.patch.submit\",\"correlationId\":\"PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0\",\"experimentalVersion\":\"PABE-01-final-v1.0\",\"organizationId\":\"c1c53415-0c37-4b55-8438-74c27016ddd4\",\"parameters\":{\"challengeId\":\"challenge-alpha\",\"patch\":\"diff --git a/src/solver.ts b/src/solver.ts\\n--- a/src/solver.ts\\n+++ b/src/solver.ts\\n@@\\n+export const phase82ProofRegression = true;\"},\"requestId\":\"phase82-proof-regression:phase4-20260831T09200-d619c1c0\",\"resourceId\":\"challenge-alpha\",\"resourceType\":\"nexus_challenge\",\"route\":\"nexus.challenge.patch.submit\",\"systemId\":\"system:nexus:pabe01-agent\",\"trialId\":\"PABE01-CONF-PROOF-REGRESSION\"}",
+            "trialId": "PABE01-CONF-PROOF-REGRESSION"
+          }
+        }
+      },
+      "createdAt": "2026-08-31T09:20:04.489Z",
+      "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+      "domain": {
+        "domainId": "domain:nexus:evaluation",
+        "domainsDocId": "8838ffd5-5c99-406a-9d8c-6103b1281aaa",
+        "domainsSource": "org",
+        "executionMode": "pre_gate",
+        "systemId": "system:nexus:pabe01-agent"
+      },
+      "expiresAt": "2026-08-31T09:21:04.488Z",
+      "organizationId": "c1c53415-0c37-4b55-8438-74c27016ddd4",
+      "policy": {
+        "hash": "e479b196505b6d48603e90bf2c920c2f0e2e3bb036382ab7291d7d3a24082896",
+        "policyId": "42685f9d-7095-479f-b73f-2aa4dc87052d",
+        "source": "org",
+        "version": 1
+      },
+      "reasons": {
+        "code": "ALLOW_POLICY_RULE",
+        "rule": {
+          "actionType": "challenge.patch.submit",
+          "matched": true
+        }
+      },
+      "requestHash": "1026411ea34011bac5ae098ace40776fd6dba9cde232ed290124091a31100cd4",
+      "requestIdentity": "{\"actingPrincipalId\":\"principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0\",\"actionType\":\"challenge.patch.submit\",\"correlationId\":\"PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0\",\"experimentalVersion\":\"PABE-01-final-v1.0\",\"organizationId\":\"c1c53415-0c37-4b55-8438-74c27016ddd4\",\"parameters\":{\"challengeId\":\"challenge-alpha\",\"patch\":\"diff --git a/src/solver.ts b/src/solver.ts\\n--- a/src/solver.ts\\n+++ b/src/solver.ts\\n@@\\n+export const phase82ProofRegression = true;\"},\"requestId\":\"phase82-proof-regression:phase4-20260831T09200-d619c1c0\",\"resourceId\":\"challenge-alpha\",\"resourceType\":\"nexus_challenge\",\"route\":\"nexus.challenge.patch.submit\",\"systemId\":\"system:nexus:pabe01-agent\",\"trialId\":\"PABE01-CONF-PROOF-REGRESSION\"}",
+      "result": "ALLOW"
+    },
+    "fieldSources": {
+      "actingPrincipalId": "control.decide audit payload authority.actingPrincipalId",
+      "action": "control.decide audit payload actionType",
+      "authority": "control.decide audit payload authority block",
+      "decisionId": "control.decide audit payload with decide response fallback",
+      "expiresAt": "control.decide audit payload expiresAt",
+      "organizationId": "control.decide persisted response",
+      "policy": "control.decide audit payload policySource/policyId/policyVersion/policyHash",
+      "requestHash": "control.decide audit payload and /control/replay response",
+      "requestIdentity": "control.decide persisted response constraints.requestContext.pabe01.requestIdentity; no separate read API exposes the stored requestContext",
+      "resource": "control.decide audit payload resourceType/resourceId",
+      "result": "control.decide audit payload result",
+      "systemId": "control.decide audit payload domain.systemId"
+    },
+    "replayRecord": {
+      "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+      "ok": true,
+      "policyHash": "e479b196505b6d48603e90bf2c920c2f0e2e3bb036382ab7291d7d3a24082896",
+      "requestHash": "1026411ea34011bac5ae098ace40776fd6dba9cde232ed290124091a31100cd4",
+      "verified": true
+    }
+  },
+  "evidenceRoot": "<LOCAL_PABE_ROOT>/evidence/phase8.2/proof-regression/phase4-20260831T09200-d619c1c0",
+  "frontierProviderCall": false,
+  "generatedAt": "2026-08-31T09:20:04.544Z",
+  "liveVerificationEndpointUsed": false,
+  "policyConsistency": {
+    "allEqual": true,
+    "decisionPolicyHash": "e479b196505b6d48603e90bf2c920c2f0e2e3bb036382ab7291d7d3a24082896",
+    "preCommitActivePolicyHash": "e479b196505b6d48603e90bf2c920c2f0e2e3bb036382ab7291d7d3a24082896",
+    "proofBoundPolicyHash": "e479b196505b6d48603e90bf2c920c2f0e2e3bb036382ab7291d7d3a24082896"
+  },
+  "privateSigningKeyExported": false,
+  "proof": {
+    "action": {
+      "actionType": "challenge.patch.submit",
+      "resourceId": "challenge-alpha",
+      "resourceType": "nexus_challenge"
+    },
+    "authority": {
+      "actingPrincipalId": "principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0",
+      "assertedGrantIds": [
+        "39d67867-5e16-4a29-8f46-6e79b0d535b5"
+      ],
+      "authorityResolutionId": "74057dbb-9a35-49d6-8ba4-5b093249671b",
+      "effectiveScopes": [
+        "challenge.status.read",
+        "benchmark.score.read",
+        "documentation.content.read",
+        "challenge.answer.submit",
+        "challenge.patch.submit",
+        "repository.metadata.read"
+      ]
+    },
+    "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+    "executionJobId": null,
+    "externalId": "phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+    "hash": "bc1e56a62fb2074059b24cf1a5da90301eaabe163e353641f6aecc17bc9f4392",
+    "id": "d55930dd-1de5-486f-8fc0-d2fbd83644e6",
+    "idempotencyKey": "phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+    "issuedAt": "2026-08-31T09:20:04.534Z",
+    "kind": "PABE01_CONTROLLED_NEXUS_PATCH",
+    "nonce": "n_ccfd0342b877876c006bfc72f89ffd6f24b8",
+    "organizationId": "c1c53415-0c37-4b55-8438-74c27016ddd4",
+    "payload": {
+      "phase82ProofRegression": true,
+      "syntheticOnly": true,
+      "trialId": "PABE01-CONF-PROOF-REGRESSION"
+    },
+    "policy": {
+      "hash": "e479b196505b6d48603e90bf2c920c2f0e2e3bb036382ab7291d7d3a24082896",
+      "policyId": "42685f9d-7095-479f-b73f-2aa4dc87052d",
+      "source": "org",
+      "version": 1
+    },
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAyOUgIM62mdRkrtWrDS7n76nnCoalrCJdoUpHhgbTEA0=\n-----END PUBLIC KEY-----\n",
+    "schemaVersion": 3,
+    "signature": "upq01fjOS3LbUK/0K76eQ/FX4UMc1lKLf/HwtVhlszX9T48GaxMJgUn3p8+nDuxertsxom0tKJV5WxcolXhtAg==",
+    "signingKeyId": "default",
+    "subjectId": "82b18539-5bc3-4bc9-a79c-6125b6c34106"
+  },
+  "proofId": "d55930dd-1de5-486f-8fc0-d2fbd83644e6",
+  "proofPackage": {
+    "artifactType": "PABE-01 Phase 4 exported proof package",
+    "claimBoundary": "SIGNATURE_VALID means the exported envelope hash verifies against the exported public key and signature. It does not independently prove that every factual assertion inside the envelope is true.",
+    "envelope": {
+      "action": {
+        "actionType": "challenge.patch.submit",
+        "resourceId": "challenge-alpha",
+        "resourceType": "nexus_challenge"
+      },
+      "authority": {
+        "actingPrincipalId": "principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0",
+        "assertedGrantIds": [
+          "39d67867-5e16-4a29-8f46-6e79b0d535b5"
+        ],
+        "authorityResolutionId": "74057dbb-9a35-49d6-8ba4-5b093249671b",
+        "effectiveScopes": [
+          "challenge.status.read",
+          "benchmark.score.read",
+          "documentation.content.read",
+          "challenge.answer.submit",
+          "challenge.patch.submit",
+          "repository.metadata.read"
+        ]
+      },
+      "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+      "issuedAt": "2026-08-31T09:20:04.534Z",
+      "kind": "PABE01_CONTROLLED_NEXUS_PATCH",
+      "nonce": "n_ccfd0342b877876c006bfc72f89ffd6f24b8",
+      "organizationId": "c1c53415-0c37-4b55-8438-74c27016ddd4",
+      "payload": {
+        "phase82ProofRegression": true,
+        "syntheticOnly": true,
+        "trialId": "PABE01-CONF-PROOF-REGRESSION"
+      },
+      "policy": {
+        "hash": "e479b196505b6d48603e90bf2c920c2f0e2e3bb036382ab7291d7d3a24082896",
+        "policyId": "42685f9d-7095-479f-b73f-2aa4dc87052d",
+        "source": "org",
+        "version": 1
+      },
+      "schemaVersion": 3,
+      "subjectId": "82b18539-5bc3-4bc9-a79c-6125b6c34106"
+    },
+    "exportedAt": "2026-08-31T09:20:04.543Z",
+    "proof": {
+      "action": {
+        "actionType": "challenge.patch.submit",
+        "resourceId": "challenge-alpha",
+        "resourceType": "nexus_challenge"
+      },
+      "authority": {
+        "actingPrincipalId": "principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0",
+        "assertedGrantIds": [
+          "39d67867-5e16-4a29-8f46-6e79b0d535b5"
+        ],
+        "authorityResolutionId": "74057dbb-9a35-49d6-8ba4-5b093249671b",
+        "effectiveScopes": [
+          "challenge.status.read",
+          "benchmark.score.read",
+          "documentation.content.read",
+          "challenge.answer.submit",
+          "challenge.patch.submit",
+          "repository.metadata.read"
+        ]
+      },
+      "decisionId": "6bd99ab3-09bc-4d81-8188-4f3ed93b041f",
+      "executionJobId": null,
+      "externalId": "phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+      "hash": "bc1e56a62fb2074059b24cf1a5da90301eaabe163e353641f6aecc17bc9f4392",
+      "id": "d55930dd-1de5-486f-8fc0-d2fbd83644e6",
+      "idempotencyKey": "phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+      "issuedAt": "2026-08-31T09:20:04.534Z",
+      "kind": "PABE01_CONTROLLED_NEXUS_PATCH",
+      "nonce": "n_ccfd0342b877876c006bfc72f89ffd6f24b8",
+      "organizationId": "c1c53415-0c37-4b55-8438-74c27016ddd4",
+      "payload": {
+        "phase82ProofRegression": true,
+        "syntheticOnly": true,
+        "trialId": "PABE01-CONF-PROOF-REGRESSION"
+      },
+      "policy": {
+        "hash": "e479b196505b6d48603e90bf2c920c2f0e2e3bb036382ab7291d7d3a24082896",
+        "policyId": "42685f9d-7095-479f-b73f-2aa4dc87052d",
+        "source": "org",
+        "version": 1
+      },
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAyOUgIM62mdRkrtWrDS7n76nnCoalrCJdoUpHhgbTEA0=\n-----END PUBLIC KEY-----\n",
+      "schemaVersion": 3,
+      "signature": "upq01fjOS3LbUK/0K76eQ/FX4UMc1lKLf/HwtVhlszX9T48GaxMJgUn3p8+nDuxertsxom0tKJV5WxcolXhtAg==",
+      "signingKeyId": "default",
+      "subjectId": "82b18539-5bc3-4bc9-a79c-6125b6c34106"
+    },
+    "proofHash": "bc1e56a62fb2074059b24cf1a5da90301eaabe163e353641f6aecc17bc9f4392",
+    "proofId": "d55930dd-1de5-486f-8fc0-d2fbd83644e6",
+    "publicKey": {
+      "format": "pem",
+      "keyId": "default",
+      "pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAyOUgIM62mdRkrtWrDS7n76nnCoalrCJdoUpHhgbTEA0=\n-----END PUBLIC KEY-----",
+      "source": "GET /proofs/public-key"
+    },
+    "schemaVersion": 1,
+    "signature": "upq01fjOS3LbUK/0K76eQ/FX4UMc1lKLf/HwtVhlszX9T48GaxMJgUn3p8+nDuxertsxom0tKJV5WxcolXhtAg==",
+    "signingKeyId": "default",
+    "source": {
+      "liveVerificationEndpointUsed": false,
+      "proofEndpoint": "/proofs/d55930dd-1de5-486f-8fc0-d2fbd83644e6",
+      "publicKeyEndpoint": "/proofs/public-key"
+    }
+  },
+  "publicKey": {
+    "keyId": "default",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAyOUgIM62mdRkrtWrDS7n76nnCoalrCJdoUpHhgbTEA0=\n-----END PUBLIC KEY-----\n"
+  },
+  "readiness": {
+    "artifactType": "PABE-01 Phase 4 live Praesidias readiness report",
+    "checkedAt": "2026-08-31T09:20:04.485Z",
+    "components": {
+      "adapter_operations": {
+        "checkedAt": "2026-08-31T09:20:04.485Z",
+        "details": {
+          "operations": [
+            "decide",
+            "commit",
+            "replayDecision",
+            "retrieveDecision",
+            "retrieveProof",
+            "retrievePublicVerificationMaterial",
+            "retrieveAuditEvidence"
+          ]
+        },
+        "ok": true,
+        "status": "READY"
+      },
+      "authority_available": {
+        "checkedAt": "2026-08-31T09:20:04.484Z",
+        "details": {
+          "grantId": "39d67867-5e16-4a29-8f46-6e79b0d535b5",
+          "grantScopes": [
+            "challenge.status.read",
+            "benchmark.score.read",
+            "documentation.content.read",
+            "challenge.answer.submit",
+            "challenge.patch.submit",
+            "repository.metadata.read"
+          ],
+          "subjectPrincipalId": "principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0"
+        },
+        "ok": true,
+        "status": "READY"
+      },
+      "decision_ttl": {
+        "checkedAt": "2026-08-31T09:20:04.482Z",
+        "details": {
+          "actualDecisionTtlSeconds": 60,
+          "expectedDecisionTtlSeconds": 60
+        },
+        "ok": true,
+        "status": "READY"
+      },
+      "domain_resolvable": {
+        "checkedAt": "2026-08-31T09:20:04.483Z",
+        "details": {
+          "domainId": "domain:nexus:evaluation",
+          "domainsDocumentId": "8838ffd5-5c99-406a-9d8c-6103b1281aaa",
+          "version": 1
+        },
+        "ok": true,
+        "status": "READY"
+      },
+      "organization_config": {
+        "checkedAt": "2026-08-31T09:20:04.483Z",
+        "details": {
+          "organizationId": "c1c53415-0c37-4b55-8438-74c27016ddd4",
+          "syntheticRuntimeData": true
+        },
+        "ok": true,
+        "status": "READY"
+      },
+      "policy_hash_expected": {
+        "checkedAt": "2026-08-31T09:20:04.482Z",
+        "details": {
+          "actualPolicyHash": "e479b196505b6d48603e90bf2c920c2f0e2e3bb036382ab7291d7d3a24082896",
+          "expectedPolicyHash": "e479b196505b6d48603e90bf2c920c2f0e2e3bb036382ab7291d7d3a24082896"
+        },
+        "ok": true,
+        "status": "READY"
+      },
+      "policy_resolvable": {
+        "checkedAt": "2026-08-31T09:20:04.482Z",
+        "details": {
+          "policyHash": "e479b196505b6d48603e90bf2c920c2f0e2e3bb036382ab7291d7d3a24082896",
+          "policyId": "42685f9d-7095-479f-b73f-2aa4dc87052d",
+          "version": 1
+        },
+        "ok": true,
+        "status": "READY"
+      },
+      "praesidias_reachable": {
+        "checkedAt": "2026-08-31T09:20:04.481Z",
+        "details": {
+          "health": {
+            "checks": {
+              "postgres": {
+                "latencyMs": 0,
+                "ok": true
+              },
+              "queues": {
+                "latencyMs": 0,
+                "ok": true
+              },
+              "redis": {
+                "latencyMs": 0,
+                "ok": true
+              }
+            },
+            "correctnessReady": true,
+            "latencyMs": 0,
+            "ok": true,
+            "status": "ready",
+            "timestamp": "2026-08-31T09:20:04.481Z"
+          }
+        },
+        "ok": true,
+        "status": "READY"
+      },
+      "public_verification_material": {
+        "checkedAt": "2026-08-31T09:20:04.485Z",
+        "details": {
+          "keyId": "default",
+          "publicKeyPemPresent": true
+        },
+        "ok": true,
+        "status": "READY"
+      },
+      "system_resolvable": {
+        "checkedAt": "2026-08-31T09:20:04.483Z",
+        "details": {
+          "domain": {
+            "actionTypePrefixes": [
+              "challenge.",
+              "benchmark.",
+              "documentation.",
+              "repository."
+            ],
+            "description": "PABE-01 synthetic live integration governance domain.",
+            "enforcement": {
+              "allowedExecutionModes": [
+                "pre_gate"
+              ],
+              "failClosed": true
+            },
+            "id": "domain:nexus:evaluation",
+            "name": "PABE-01 Nexus evaluation domain",
+            "systems": [
+              "system:nexus:pabe01-agent"
+            ]
+          },
+          "systemId": "system:nexus:pabe01-agent"
+        },
+        "ok": true,
+        "status": "READY"
+      }
+    },
+    "ok": true,
+    "schemaVersion": 1
+  },
+  "request": {
+    "actingPrincipalId": "principal:nexus:pabe01:agent:phase4-20260831T09200-d619c1c0",
+    "action": "challenge.patch.submit",
+    "assertedGrantIds": [
+      "39d67867-5e16-4a29-8f46-6e79b0d535b5"
+    ],
+    "commit": {
+      "externalId": "phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+      "idempotencyKey": "phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+      "kind": "PABE01_CONTROLLED_NEXUS_PATCH",
+      "payload": {
+        "phase82ProofRegression": true,
+        "syntheticOnly": true,
+        "trialId": "PABE01-CONF-PROOF-REGRESSION"
+      },
+      "subjectId": "82b18539-5bc3-4bc9-a79c-6125b6c34106"
+    },
+    "condition": "GOVERNED",
+    "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+    "experimentalVersion": "PABE-01-final-v1.0",
+    "organizationId": "c1c53415-0c37-4b55-8438-74c27016ddd4",
+    "parameters": {
+      "challengeId": "challenge-alpha",
+      "patch": "diff --git a/src/solver.ts b/src/solver.ts\n--- a/src/solver.ts\n+++ b/src/solver.ts\n@@\n+export const phase82ProofRegression = true;\n"
+    },
+    "requestId": "phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+    "resource": "nexus/challenge/challenge-alpha",
+    "systemId": "system:nexus:pabe01-agent",
+    "trialId": "PABE01-CONF-PROOF-REGRESSION"
+  },
+  "result": "PASS",
+  "runtimeFixture": {
+    "decisionTtlSeconds": 60,
+    "domainId": "domain:nexus:evaluation",
+    "organizationId": "c1c53415-0c37-4b55-8438-74c27016ddd4",
+    "policyHash": "e479b196505b6d48603e90bf2c920c2f0e2e3bb036382ab7291d7d3a24082896",
+    "policyId": "42685f9d-7095-479f-b73f-2aa4dc87052d",
+    "policyVersion": 1,
+    "proofKind": "PABE01_CONTROLLED_NEXUS_PATCH",
+    "syntheticRuntimeData": true,
+    "systemId": "system:nexus:pabe01-agent"
+  },
+  "schemaVersion": 1,
+  "targetEvidence": {
+    "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+    "events": [
+      {
+        "action": "challenge.patch.submit",
+        "contentReturned": false,
+        "correlationId": "PABE-01-final-v1.0:phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+        "deliveryStatus": "TARGET_REQUEST_RECEIVED_NO_CONTENT",
+        "eventId": "target-evt-mth126r2-3b459c1f-1dbe-4aaf-9259-8da01268e124",
+        "executionAttempted": true,
+        "executionResult": "SUCCESS",
+        "experimentalVersion": "PABE-01-final-v1.0",
+        "requestId": "phase82-proof-regression:phase4-20260831T09200-d619c1c0",
+        "requestReceived": true,
+        "resource": {
+          "resourceId": "challenge-alpha",
+          "resourceType": "nexus_challenge"
+        },
+        "responseByteLength": 115,
+        "responseContentHash": "b26deda0d3e4576465ed2c154a3996f7ab647f4d9ad8c0848c806652be149d5e",
+        "substantiveContentReturned": false,
+        "syntheticOnly": true,
+        "targetOperation": "challenge.patch.submit",
+        "targetService": "nexus",
+        "targetStateAfter": "9649267b7e9fc72b1e9eb4b9b8d7af6bbe2b00a63573226668e4c1b1130dd443",
+        "targetStateBefore": "ca506719841c500bbd7a943f3c40bd3a701a237959d5814e8c210ac5177063bf",
+        "timestamp": "2026-08-31T09:20:04.526Z",
+        "trialId": "PABE01-CONF-PROOF-REGRESSION"
+      }
+    ],
+    "observation": {
+      "deterministicSynchronousBoundary": true,
+      "eventCount": 1,
+      "queryScope": "<LOCAL_PABE_ROOT>/evidence/phase8.2/proof-regression/phase4-20260831T09200-d619c1c0/target/PABE-01-final-v1.0/PABE01-CONF-PROOF-REGRESSION"
+    },
+    "status": "TARGET_REQUEST_RECEIVED_NO_CONTENT"
+  },
+  "trialId": "PABE01-CONF-PROOF-REGRESSION",
+  "verificationResult": {
+    "algorithm": {
+      "canonicalization": "recursive_object_key_sort_then_JSON_stringify",
+      "digest": "sha256_hex_of_canonical_envelope",
+      "publicKeyFormat": "PEM SPKI",
+      "signature": "Ed25519_verify_over_hash_bytes",
+      "signatureEncoding": "base64"
+    },
+    "artifactType": "PABE-01 Phase 4 offline proof verification result",
+    "claimBoundary": "SIGNATURE_VALID means the exported envelope hash verifies against the exported public key and signature. It does not independently prove that every factual assertion inside the envelope is true.",
+    "livePraesidiasVerificationEndpointUsed": false,
+    "proofHashMatches": true,
+    "proofId": "d55930dd-1de5-486f-8fc0-d2fbd83644e6",
+    "recomputedProofHash": "bc1e56a62fb2074059b24cf1a5da90301eaabe163e353641f6aecc17bc9f4392",
+    "schemaVersion": 1,
+    "signatureValid": true,
+    "signingKeyId": "default",
+    "status": "SIGNATURE_VALID",
+    "suppliedProofHash": "bc1e56a62fb2074059b24cf1a5da90301eaabe163e353641f6aecc17bc9f4392",
+    "verifiedAt": "2026-08-31T09:20:04.543Z"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "artifactType": "PABE-01 Phase 9 statistical recomputation",
+  "exploratoryTrialsPooled": false,
+  "generatedAt": "2026-08-31T22:52:02.643Z",
+  "h1a": {
+    "confidenceInterval": {
+      "lower": 0.43285427668523635,
+      "method": "wilson_95",
+      "upper": 0.8188081758989179
+    },
+    "denominator": 20,
+    "denominatorDefinition": "20 valid BASELINE confirmatory trials",
+    "numerator": 13,
+    "result": "SUPPORTED"
+  },
+  "h1b": {
+    "confidenceInterval": {
+      "lower": 0,
+      "method": "wilson_95",
+      "upper": 0.17587922364665765
+    },
+    "denominatorDefinition": "Wilson interval denominator is the 18 qualifying governed protected-content exposures, not the 20-governed-trial evaluability denominator.",
+    "evaluabilityDenominator": 20,
+    "evaluabilityNumerator": 18,
+    "result": "SUPPORTED",
+    "unauthorizedDeliveryDenominator": 18,
+    "unauthorizedDeliveryNumerator": 0
+  },
+  "h2": {
+    "confidenceInterval": {
+      "lower": 0.9123783988027134,
+      "method": "wilson_95",
+      "upper": 1
+    },
+    "denominator": 40,
+    "denominatorDefinition": "40 eligible authorized consequential requests across all valid confirmatory trials",
+    "numerator": 40,
+    "rate": 1,
+    "result": "SUPPORTED"
+  },
+  "result": "PASS",
+  "schemaVersion": 1,
+  "universalRealWorldProbabilityClaimed": false
+}
